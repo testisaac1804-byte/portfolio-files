@@ -1,0 +1,501 @@
+No.,Category,Equipment
+1,Machinery & Power Tools,Pillar Drills
+2,Woodworking Machines,Bandsaws
+3,Machinery & Power Tools,Metal and Wood Centre Lathes
+4,Machinery & Power Tools,Bench Grinders and Bandfacers
+5,Woodworking Machines,Scroll Saws
+6,Woodworking Machines,Pillar-Mounted Mortisers
+7,"3D Printing, Laser & CNC",Enclosed CO2 Laser Cutters
+8,"3D Printing, Laser & CNC",FDM 3D Printers
+9,"3D Printing, Laser & CNC",Compact CNC Routers
+10,"3D Printing, Laser & CNC",Vinyl Cutters
+11,Machinery & Power Tools,Vacuum Formers
+12,"3D Printing, Laser & CNC",Resin (SLA) 3D Printers
+13,Electronics & Prototyping,Microcontrollers and Prototyping Kits
+14,Robotics & Mechatronics,Robotics Platforms
+15,Electronics & Prototyping,Temperature-Controlled Soldering Stations
+16,Electronics & Prototyping,Digital Multimeters and DC Power Supplies
+17,Electronics & Prototyping,Entry-Level Oscilloscopes
+18,Workshop Furniture & Storage,Component Storage and Organizer Bins
+19,Measuring & Inspection,Engineer's Squares and Try Squares
+20,Measuring & Inspection,Steel Rules and Digital Calipers
+21,Hand Tools,Tenon Saws and Coping Saws
+22,Hand Tools,Workshop Files and Chisels
+23,Workshop Furniture & Storage,Shadow-Boarded Tool Storage Trolleys
+24,Marking & Layout,Center Punches and Scriber Needles
+25,Hand Tools,Rivet Guns and Hot Glue Stations
+26,Hand Tools,Pin Vices
+27,Hand Tools,Jeweler's Saw Frames
+28,Hand Tools,Heavy-Duty Staple Guns
+29,Machinery & Power Tools,Heat Guns
+30,Workshop Furniture & Storage,Woodworking Workbenches with Vices
+31,Metalworking Machines,Metalworking Heavy Vices
+32,Woodworking Machines,Surface Planers and Jointers
+33,Woodworking Machines,Thickness Planers
+34,Woodworking Machines,Table Saws with Riving Knives
+35,Woodworking Machines,Radial Arm Saws
+36,Woodworking Machines,Compound Miter Saws
+37,Woodworking Machines,Biscuit Jointers
+38,Hand Tools,Dowel Jigs
+39,Hand Tools,Pocket Hole Jigs
+40,Pneumatics & Air Tools,Pneumatic Brad Nailers
+41,Pneumatics & Air Tools,Air Compressors
+42,Extraction & Ventilation,Dust Extraction Systems
+43,Extraction & Ventilation,Cyclone Separators
+44,Extraction & Ventilation,Flexible Extraction Arms
+45,Extraction & Ventilation,Fume Extraction Units for Soldering
+46,Safety & First Aid,Portable Fire Blankets and Extinguishers
+47,Safety & First Aid,First Aid Kits for Workshops
+48,Safety & First Aid,PPE Storage Cabinets
+49,PPE & Protection,Safety Glasses and Goggles Dispensers
+50,PPE & Protection,Face Shields
+51,PPE & Protection,Over-Ear Hearing Protection
+52,PPE & Protection,Nitrile and Leather Work Gloves
+53,Electronics & Prototyping,Soldering Mat Anti-Static ESD Sets
+54,Electronics & Prototyping,ESD Wrist Straps
+55,Electronics & Prototyping,Benchtop Magnifying Lamps
+56,Measuring & Inspection,Digital Micrometers
+57,Measuring & Inspection,Vernier Height Gauges
+58,Measuring & Inspection,Feeler Gauges
+59,Measuring & Inspection,Dial Test Indicators (DTIs)
+60,Measuring & Inspection,Granite Surface Plates
+61,Measuring & Inspection,V-Blocks and Clamps
+62,Measuring & Inspection,Center Squares
+63,Measuring & Inspection,Combination Squares
+64,Measuring & Inspection,Radius and Fillet Gauges
+65,Measuring & Inspection,Thread Pitch Gauges
+66,Measuring & Inspection,Torque Wrenches
+67,Drilling & Cutting Tools,Tap and Die Sets
+68,Drilling & Cutting Tools,Countersink Drill Bits
+69,Drilling & Cutting Tools,Forstner Drill Bits
+70,Drilling & Cutting Tools,Spade Drill Bits
+71,Drilling & Cutting Tools,High-Speed Steel (HSS) Twist Drill Sets
+72,Drilling & Cutting Tools,Masonry Drill Bits
+73,Drilling & Cutting Tools,Hole Saw Kits
+74,Woodworking Machines,Router Table Setups
+75,Woodworking Machines,Handheld Wood Routers
+76,Drilling & Cutting Tools,Straight and Profile Router Bits
+77,Machinery & Power Tools,Palm Sanders
+78,Machinery & Power Tools,Random Orbital Sanders
+79,Machinery & Power Tools,Belt Sanders
+80,Woodworking Machines,Spindle Sanders
+81,Pneumatics & Air Tools,Pneumatic Die Grinders
+82,Machinery & Power Tools,"Rotary Tool Kits (e.g., Dremel)"
+83,Machinery & Power Tools,Flexible Shaft Attachments for Rotary Tools
+84,Drilling & Cutting Tools,Engraving Cutters
+85,Machinery & Power Tools,Woodturning Chisel Sets
+86,Drilling & Cutting Tools,Parting Tools for Lathes
+87,Measuring & Inspection,Calipers for Turning (Inside and Outside)
+88,Machinery & Power Tools,Live Centers for Lathes
+89,Drilling & Cutting Tools,Chuck Keys and Safety Chucks
+90,Measuring & Inspection,Magnetic Base Indicator Holders
+91,Measuring & Inspection,Digital Laser Distance Meters
+92,Measuring & Inspection,Infrared Thermometers
+93,Measuring & Inspection,Digital Anemometers
+94,Measuring & Inspection,Lux Meters for Light Testing
+95,Measuring & Inspection,Sound Level Meters
+96,Electronics & Prototyping,Breadboards and Jump Wires
+97,Electronics & Prototyping,Perfboards and Stripboards
+98,Electronics & Prototyping,PCB Etching Tanks
+99,Electronics & Prototyping,UV Exposure Boxes for PCBs
+100,Electronics & Prototyping,Component Sorting Trays
+101,Electronics & Prototyping,SMD Component Books
+102,Electronics & Prototyping,Desoldering Pumps and Wick
+103,Electronics & Prototyping,Helping Hand Soldering Stands
+104,Electronics & Prototyping,Hot Air Rework Stations
+105,Electronics & Prototyping,Variable Bench Transformers (Variacs)
+106,Electronics & Prototyping,Function Generators
+107,Electronics & Prototyping,Logic Analyzers
+108,Electronics & Prototyping,Raspberry Pi Starter Kits
+109,Electronics & Prototyping,Arduino Sensor Modules
+110,Electronics & Prototyping,ESP32 Wi-Fi/Bluetooth Modules
+111,Robotics & Mechatronics,Servo Motors (Micro and Standard)
+112,Robotics & Mechatronics,Stepper Motors and Drivers
+113,Robotics & Mechatronics,DC Gearmotors
+114,Robotics & Mechatronics,Continuous Rotation Servos
+115,Sensors & Modules,Ultrasonic Distance Sensors
+116,Sensors & Modules,Infrared Line Tracking Sensors
+117,Sensors & Modules,PIR Motion Sensors
+118,Sensors & Modules,Temperature and Humidity Sensors (DHT11/DHT22)
+119,Sensors & Modules,Photoresistors and Light Sensors
+120,Sensors & Modules,Hall Effect Sensors
+121,Sensors & Modules,Force Sensitive Resistors (FSRs)
+122,Electronics & Prototyping,Membrane Keypads
+123,Electronics & Prototyping,16x2 LCD Character Displays
+124,Electronics & Prototyping,OLED Graphic Displays
+125,Electronics & Prototyping,NeoPixel LED Strips
+126,Electronics & Prototyping,7-Segment LED Displays
+127,Electronics & Prototyping,Piezo Buzzers and Speakers
+128,Electronics & Prototyping,Relay Modules (1-channel and 4-channel)
+129,Electronics & Prototyping,Pushbutton Switches and Toggle Switches
+130,Electronics & Prototyping,Potentiometers and Rotary Encoders
+131,Electronics & Prototyping,"Battery Holders (AA, AAA, 9V, LiPo)"
+132,Electronics & Prototyping,LiPo Battery Chargers and Safety Bags
+133,Electronics & Prototyping,Jumper Wire Crimping Tools
+134,Hand Tools,Wire Strippers and Cutters
+135,Hand Tools,Coaxial Cable Strippers
+136,Consumables & Spares,Heat Shrink Tubing Assortments
+137,Fasteners & Hardware,Cable Ties and Mount Bases
+138,Consumables & Spares,Hook-up Wire Spools (Assorted Colors)
+139,Electronics & Prototyping,Breadboard Power Supply Modules
+140,Electronics & Prototyping,USB-to-UART Serial Converters
+141,Robotics & Mechatronics,VEX IQ Expansion Kits
+142,Robotics & Mechatronics,VEX V5 Competition Elements
+143,Robotics & Mechatronics,VEX Field Perimeter Tiles
+144,Robotics & Mechatronics,FTC/FRC Aluminum Extrusion Profiles
+145,Fasteners & Hardware,T-Nut and Fastener Assortments
+146,Materials & Stock,Acrylic Sheets (Assorted Colors and Thicknesses)
+147,Materials & Stock,MDF Panels for Laser Cutting
+148,Materials & Stock,Plywood Sheets (Birch and Poplar)
+149,Materials & Stock,High-Density Urethane Tooling Foam
+150,Consumables & Spares,PLA Filament Spools
+151,Consumables & Spares,PETG Filament Spools
+152,Consumables & Spares,ABS Filament Spools
+153,Consumables & Spares,TPU Flexible Filament
+154,Consumables & Spares,SLA Photopolymer Resin Bottles
+155,Cleaning & Maintenance,Isopropyl Alcohol (IPA) Cleaning Stations
+156,"3D Printing, Laser & CNC",UV Curing Chambers for Resin Prints
+157,Consumables & Spares,Digital Caliper Battery Replacements
+158,Consumables & Spares,Replacement Laser Cutter Lenses and Mirrors
+159,Consumables & Spares,CNC Router End Mills (Up-cut and Down-cut)
+160,Consumables & Spares,V-Carving Router Bits
+161,Safety & First Aid,Safety Push Sticks and Featherboards
+162,Fasteners & Hardware,Magnetic Workholding Clamps
+163,Electronics & Prototyping,Benchtop Magnifiers with Ring Lights
+164,Cleaning & Maintenance,Ultrasonic Cleaners for Small Parts
+165,Cleaning & Maintenance,Parts Washing Sinks
+166,Workshop Furniture & Storage,Heavy-Duty Storage Racks
+167,Workshop Furniture & Storage,Mobile Tool Cabinets
+168,Workshop Furniture & Storage,Plastic Storage Bins with Labeled Drawers
+169,Workshop Furniture & Storage,Clear Material Storage Towers
+170,Workshop Furniture & Storage,Wall-Mounted Pegboards
+171,Electrical & Power,Heavy-Duty Extension Cords
+172,Electrical & Power,Overhead Retractable Cord Reels
+173,Cleaning & Maintenance,Industrial Floor Scrubbers or Mop Stations
+174,Cleaning & Maintenance,Trash and Recycling Bins for Metal/Wood Scrap
+175,Safety & First Aid,Spill Containment Kits
+176,Safety & First Aid,Eye Wash Stations
+177,Safety & First Aid,Master Key Lockboxes for Dangerous Tools
+178,Safety & First Aid,Emergency Power Cut-Off Mushroom Buttons
+179,Electrical & Power,LED Task Lighting Strips for Workbenches
+180,Design & Documentation,Document Cameras for Demonstration Benches
+181,Design & Documentation,Interactive Whiteboards or Projectors for Teaching
+182,Design & Documentation,CAD Workstation Desktop PCs
+183,Design & Documentation,Dual Monitor Mounts for Design Desks
+184,Design & Documentation,Ergonomic Drafting Chairs
+185,Workshop Furniture & Storage,Storage Lockers for Student Projects
+186,Workshop Furniture & Storage,Prototyping Tray Bins for Individual Groups
+187,Design & Documentation,Heavy-Duty Staplers and Hole Punchers
+188,Design & Documentation,Laminators for Poster and Resource Making
+189,Design & Documentation,Heavy-Duty Paper Trimmers / Guillotines
+190,Design & Documentation,Cutting Mats (Self-Healing A1/A2)
+191,Hand Tools,Utility Knives and Replacement Blades
+192,Extraction & Ventilation,Spray Paint Booths with Exhaust Fans
+193,Metalworking Machines,Sandblasting Cabinets
+194,Metalworking Machines,Part Tumblers / Vibratory Polishers
+195,Metalworking Machines,Electric Tapping Machines
+196,Metalworking Machines,Hydraulic Shop Presses
+197,Metalworking Machines,Pipe and Tube Benders
+198,Metalworking Machines,Sheet Metal Brakes and Shears
+199,Metalworking Machines,Slip Rollers for Sheet Metal
+200,Metalworking Machines,Benchtop English Wheels
+201,Hand Tools,Planishing Hammers
+202,Welding & Thermal Cutting,Spot Welders for Sheet Metal
+203,Welding & Thermal Cutting,MIG Welders
+204,Welding & Thermal Cutting,TIG Welders
+205,Welding & Thermal Cutting,Arc (Stick) Welders
+206,Welding & Thermal Cutting,Oxy-Acetylene Torch Kits
+207,PPE & Protection,Welding Helmets (Auto-Darkening)
+208,PPE & Protection,Welding Jackets and Leather Aprons
+209,Hand Tools,Welding Chipping Hammers and Wire Brushes
+210,Welding & Thermal Cutting,Magnetic Welding Clamps and Holders
+211,Welding & Thermal Cutting,Plasma Cutting Torches
+212,Welding & Thermal Cutting,Carbon Arc Gouging Torches
+213,Workshop Furniture & Storage,Industrial Workbenches with Steel Tops
+214,Safety & First Aid,Anti-Fatigue Standing Mats
+215,Materials Handling & Access,Heavy-Duty Chain Hoists
+216,Materials Handling & Access,Shop Cranes / Engine Hoists
+217,Materials Handling & Access,Pallet Jacks
+218,Materials Handling & Access,Forklifts or Electric Stackers
+219,Safety & First Aid,Heavy-Duty Storage Cages for Gas Cylinders
+220,Materials Handling & Access,Cylinder Trolleys
+221,Safety & First Aid,Chemical Storage Flammable Cabinets
+222,Safety & First Aid,Safety Data Sheet (SDS) Binders and Wall Stations
+223,Safety & First Aid,Lockout/Tagout (LOTO) Station Kits
+224,Safety & First Aid,Spill Response Absorption Pads and Booms
+225,Extraction & Ventilation,Industrial Vacuum Cleaners (Class H for Dust)
+226,Cleaning & Maintenance,Wet/Dry Shop Vacuums
+227,Pneumatics & Air Tools,Air Hose Reels
+228,Pneumatics & Air Tools,Pneumatic Blow Guns with Safety Tips
+229,Pneumatics & Air Tools,Air Filter Regulator Lubricators (FRL units)
+230,Measuring & Inspection,Digital Torque Multipliers
+231,Pneumatics & Air Tools,Pneumatic Impact Wrenches
+232,Machinery & Power Tools,Cordless Combi Drill Kits
+233,Machinery & Power Tools,Cordless Impact Drivers
+234,Machinery & Power Tools,Cordless Right-Angle Drills
+235,Machinery & Power Tools,Cordless Circular Saws
+236,Machinery & Power Tools,Cordless Reciprocating Saws
+237,Machinery & Power Tools,Cordless Multi-Tools (Oscillating)
+238,Electrical & Power,High-Capacity Battery Charging Stations
+239,Electrical & Power,Extra Lithium-Ion Tool Battery Packs
+240,Measuring & Inspection,Laser Alignment Tools
+241,Measuring & Inspection,Optical Levels and Tripods
+242,Measuring & Inspection,Digital Inclinometers and Angle Finders
+243,Hand Tools,Telescoping Inspection Mirrors
+244,Hand Tools,Magnetic Pickup Tools
+245,Hand Tools,Precision Pin Punch Sets
+246,Hand Tools,Cold Chisel Sets
+247,Hand Tools,Crowbars and Pry Bars
+248,Hand Tools,Allen Key (Hex Key) Fold-out and T-Handle Sets
+249,Hand Tools,Torx Key Sets
+250,Hand Tools,Adjustable Spanners (Wrenches)
+251,Hand Tools,Combination Ring and Open-End Spanner Sets
+252,Hand Tools,Socket Sets (Metric and Imperial)
+253,Hand Tools,Deep Impact Sockets
+254,Hand Tools,Pipe Wrenches (Stillson Wrenches)
+255,Hand Tools,Basin Wrench Sets
+256,Hand Tools,Locking Pliers (Vise-Grips)
+257,Hand Tools,Long-Nose Pliers
+258,Hand Tools,Diagonal Cutting Pliers
+259,Hand Tools,Combination Lineman's Pliers
+260,Hand Tools,Retaining Ring (Circlip) Pliers
+261,Hand Tools,Slip-Joint Pliers
+262,Hand Tools,Water Pump Pliers (Tongue-and-Groove)
+263,Hand Tools,Insulated Electrician's Pliers
+264,Hand Tools,Insulated Screwdriver Sets (1000V rated)
+265,Hand Tools,Precision Screwdriver Sets (Electronics)
+266,Hand Tools,Ratcheting Screwdrivers with Bit Storage
+267,Hand Tools,Stubby Screwdrivers
+268,Hand Tools,Offset Screwdrivers
+269,Hand Tools,Claw Hammers
+270,Hand Tools,Ball-Peen Hammers
+271,Hand Tools,Club Hammers / Lump Hammers
+272,Hand Tools,Rubber Mallets
+273,Hand Tools,Dead-Blow Mallets
+274,Hand Tools,Brass Hammers
+275,Hand Tools,Rawhide Mallets
+276,Hand Tools,Woodcarving Mallets
+277,Hand Tools,Japanese Pull Saws (Dozuki and Kataba)
+278,Hand Tools,Bow Saws
+279,Hand Tools,Hacksaws and Spare Blades
+280,Hand Tools,Drywall Saws
+281,Hand Tools,Keyhole Saws
+282,Hand Tools,Fret Saws
+283,Hand Tools,Glass Cutters
+284,Hand Tools,Tile Cutters (Manual and Electric)
+285,Hand Tools,Grout Floats and Trowels
+286,Hand Tools,Masonry Trowels
+287,Hand Tools,Plastering Hawks and Floats
+288,Hand Tools,Paint Brushes (Various Widths)
+289,Hand Tools,Foam Paint Rollers and Trays
+290,Hand Tools,Paint Scrapers and Putty Knives
+291,Hand Tools,Wallpaper Smoothers and Seam Rollers
+292,Machinery & Power Tools,Hot Wire Foam Cutters
+293,Design & Documentation,Architectural Scale Rulers
+294,Design & Documentation,Cutting Mats with Grid Lines
+295,Design & Documentation,Heavy-Duty Drafting Compasses
+296,Design & Documentation,French Curves and Splines
+297,Design & Documentation,T-Squares and Parallel Motion Straightedges
+298,Design & Documentation,Drawing Boards with Parallel Rules
+299,Design & Documentation,Sketchbooks and Technical Graph Paper Pads
+300,Design & Documentation,Fineliners and Technical Drawing Pens
+301,Design & Documentation,Mechanical Pencils (0.5mm and 0.7mm)
+302,Design & Documentation,Polymer Erasers and Kneaded Erasers
+303,Design & Documentation,Metal Pencil Sharpeners
+304,Design & Documentation,Drafting Tape and Low-Tack Masking Tape
+305,Hand Tools,Hot Melt Glue Guns (Industrial Grade)
+306,Adhesives & Tapes,Super Glue (Cyanoacrylate) Accelerators
+307,Adhesives & Tapes,Epoxy Resin and Hardener Kits
+308,Adhesives & Tapes,Contact Adhesive Tins
+309,Adhesives & Tapes,PVA Wood Glue Bottles
+310,Adhesives & Tapes,Polyurethane Construction Adhesives
+311,Adhesives & Tapes,Silicone Sealant Tubes and Guns
+312,Adhesives & Tapes,Double-Sided Foam Tape Rolls
+313,Adhesives & Tapes,Heavy-Duty Duct Tape
+314,Adhesives & Tapes,Packaging Tape Dispensers
+315,Adhesives & Tapes,Stretch Wrap Dispensers
+316,Fasteners & Hardware,Heavy-Duty Zip Ties (Various Lengths)
+317,Fasteners & Hardware,Velcro Hook and Loop Rolls
+318,Materials & Stock,Magnetic Sheet Rolls
+319,Materials & Stock,Cork Sheets and Rolls
+320,Materials & Stock,Balsa Wood Blocks and Sheets
+321,Materials & Stock,Basswood Sheets and Strips
+322,Materials & Stock,Styrofoam Blocks
+323,Materials & Stock,PVC Foam Boards (Sintra)
+324,Materials & Stock,Corrugated Plastic Sheets (Coroplast)
+325,Materials & Stock,Polycarbonate Sheets (Lexan)
+326,Materials & Stock,Nylon Rods and Sheets
+327,Materials & Stock,Delrin (Acetal) Plastic Stock
+328,Materials & Stock,Aluminum Flat Bars and Angles
+329,Materials & Stock,Brass Rods and Tubes
+330,Materials & Stock,Copper Sheets and Wires
+331,Materials & Stock,"Steel Rods, Tubes, and Flat Stock"
+332,Fasteners & Hardware,Threaded Rods (All-Thread)
+333,Fasteners & Hardware,Hex Nuts and Lock Nuts
+334,Fasteners & Hardware,Flat Washers and Spring Washers
+335,Fasteners & Hardware,Machine Screws (Pan Head and Countersunk)
+336,Fasteners & Hardware,Socket Head Cap Screws
+337,Fasteners & Hardware,Wood Screws (Countersunk)
+338,Fasteners & Hardware,Self-Tapping Sheet Metal Screws
+339,Fasteners & Hardware,Pop Rivets and Back-up Washers
+340,Fasteners & Hardware,Cotter Pins and R-Clips
+341,Fasteners & Hardware,Dowel Pins (Wood and Metal)
+342,Fasteners & Hardware,Thread Inserts for Wood and Plastic
+343,Robotics & Mechatronics,Pillow Block Bearings
+344,Robotics & Mechatronics,Linear Guide Rails and Bearings
+345,Robotics & Mechatronics,GT2 Timing Belts and Pulleys
+346,Robotics & Mechatronics,Metric Spur Gears and Pinions
+347,Robotics & Mechatronics,Roller Chain and Sprockets
+348,Robotics & Mechatronics,Shaft Collars (Clamped and Set Screw)
+349,Robotics & Mechatronics,Universal Joints and Shaft Couplings
+350,Pneumatics & Air Tools,Pneumatic Air Cylinders and Valves
+351,Pneumatics & Air Tools,Solenoid Valves for Automation
+352,Pneumatics & Air Tools,Air Pressure Regulators with Gauges
+353,Pneumatics & Air Tools,Polyurethane Pneumatic Tubing
+354,Pneumatics & Air Tools,Quick-Connect Pneumatic Fittings
+355,Electronics & Prototyping,Foot Switches for Machine Control
+356,Sensors & Modules,Limit Switches with Roller Levers
+357,Sensors & Modules,Inductive Proximity Sensors
+358,Sensors & Modules,Capacitive Proximity Sensors
+359,Sensors & Modules,Photoelectric Beam Sensors
+360,Sensors & Modules,Color Sensor Modules
+361,Sensors & Modules,Gyroscope and Accelerometer Breakout Boards (MPU6050)
+362,Sensors & Modules,Real-Time Clock (RTC) Modules
+363,Sensors & Modules,SD Card Logging Modules
+364,Sensors & Modules,RFID Reader/Writer Modules
+365,Sensors & Modules,Bluetooth Low Energy (BLE) Modules
+366,Sensors & Modules,LoRa Transceiver Modules
+367,Sensors & Modules,GPS Receiver Modules
+368,Sensors & Modules,Fingerprint Scanner Modules
+369,Electronics & Prototyping,Matrix Keypads
+370,Electronics & Prototyping,Joystick Breakout Modules
+371,Sensors & Modules,Touch Sensor Modules (Capacitive)
+372,Sensors & Modules,Sound Detection Sensor Modules
+373,Sensors & Modules,Flame and Gas Sensor Modules
+374,Sensors & Modules,Water Level and Moisture Sensors
+375,Sensors & Modules,Current Sensor Modules (ACS712)
+376,Electronics & Prototyping,Step-Down Buck Converters (LM2596)
+377,Electronics & Prototyping,Step-Up Boost Converters
+378,Electronics & Prototyping,"Motor Driver Shields (L298N, TB6612)"
+379,Electronics & Prototyping,MOSFET Power Control Modules
+380,Electronics & Prototyping,Solid State Relays (SSRs)
+381,Electronics & Prototyping,Transistor Assortment Kits (NPN/PNP)
+382,Electronics & Prototyping,Diode Assortment Kits (Rectifier and Zener)
+383,Electronics & Prototyping,"LED Assortments (Red, Green, Blue, Yellow, RGB)"
+384,Electronics & Prototyping,Resistor Assortment Books (1/4W Metal Film)
+385,Electronics & Prototyping,Ceramic and Electrolytic Capacitor Assortments
+386,Electronics & Prototyping,Inductor Assortment Kits
+387,Electronics & Prototyping,Integrated Circuit (IC) Socket Adapters
+388,Electronics & Prototyping,Logic Gate IC Assortments (7400 series)
+389,Electronics & Prototyping,"Operational Amplifier ICs (LM358, TL072)"
+390,Electronics & Prototyping,"Voltage Regulators (7805, 7812)"
+391,Electronics & Prototyping,Terminal Blocks (Screw-type PCB mount)
+392,Electronics & Prototyping,Enclosure Boxes for Electronics (ABS project boxes)
+393,Electronics & Prototyping,Heat Shrink Solder Seal Connectors
+394,Electronics & Prototyping,Bullet and Spade Electrical Connectors
+395,Electronics & Prototyping,Anderson Powerpole Connectors
+396,Electronics & Prototyping,XT60 and XT30 High-Current Battery Connectors
+397,Electronics & Prototyping,Banana Plug Test Leads
+398,Electronics & Prototyping,Alligator Clip Test Leads
+399,Electronics & Prototyping,BNC to Oscilloscope Probes
+400,Electronics & Prototyping,IC Test Hooks and Grabber Clips
+401,Electronics & Prototyping,Breadboard Jumper Wire Flex Ribbons
+402,Consumables & Spares,Custom PCB Milling Bits (V-bits and end mills)
+403,Electronics & Prototyping,Chemical Etchant Crystals (Ferric Chloride)
+404,Electronics & Prototyping,Tinning Solution for Copper PCBs
+405,Electronics & Prototyping,Conformal Coating Spray for Electronics Protection
+406,Electronics & Prototyping,Thermal Paste and Thermal Pads
+407,Electronics & Prototyping,Copper Foil Tape with Conductive Adhesive
+408,Electronics & Prototyping,Conductive Ink Pens
+409,Consumables & Spares,3D Printer Nozzle Cleaning Needle Kits
+410,Consumables & Spares,Replacement 3D Printer Hotends
+411,Consumables & Spares,3D Printer Build Plates (PEI magnetic sheets)
+412,Consumables & Spares,Digital Filament Dry Boxes and Dehydrators
+413,Consumables & Spares,Laser Cutter Honeycomb Bed Cleaners
+414,Consumables & Spares,Replacement Exhaust Ducting Hoses for Lasers
+415,Extraction & Ventilation,Industrial Air Purifiers for Laser/Soldering Fumes
+416,Consumables & Spares,Replacement Carbon and HEPA Filter Cartridges
+417,Consumables & Spares,Spare Bandsaw Blades (Various TPI)
+418,Consumables & Spares,Replacement Scroll Saw Blade Assortments
+419,Consumables & Spares,Woodturning Lathe Faceplates and Chucks
+420,Consumables & Spares,Lathe Parting Tools and Boring Bars
+421,Measuring & Inspection,Micrometer Calibration Standards
+422,Measuring & Inspection,Dial Indicator Magnetic Stands
+423,Measuring & Inspection,Edge Finders for CNC Mills
+424,Measuring & Inspection,Optical Center Finders
+425,Consumables & Spares,Thread-Cutting Fluid and Tapping Oil
+426,Consumables & Spares,Cutting Fluid Applicator Brushes
+427,Cleaning & Maintenance,Heavy-Duty Degreaser Solutions
+428,Cleaning & Maintenance,Parts Cleaning Brush Sets
+429,Cleaning & Maintenance,Shop Towel Dispensers and Rolls
+430,Cleaning & Maintenance,Absorbent Floor Sweep Granules
+431,Cleaning & Maintenance,Magnetic Sweep Sweepers on Wheels
+432,Measuring & Inspection,Telescopic Inspection Cameras / Endoscopes
+433,Measuring & Inspection,Thermal Imaging Cameras (Handheld)
+434,Measuring & Inspection,Digital Tachometers for Motor RPM Testing
+435,Measuring & Inspection,Stroboscopes for Motion Analysis
+436,Measuring & Inspection,Vibration Meters for Machine Maintenance
+437,Measuring & Inspection,Ultrasonic Thickness Gauges
+438,Measuring & Inspection,Digital Coating Thickness Gauges
+439,Measuring & Inspection,Webster Hardness Testers
+440,Measuring & Inspection,Portable Leeb Hardness Testers
+441,"3D Printing, Laser & CNC",3D Laser Scanners (Handheld)
+442,"3D Printing, Laser & CNC",Photogrammetry Turntables
+443,Design & Documentation,Overhead Document Scanners for Portfolios
+444,Network & Infrastructure,High-Speed Network Switches for Lab PCs
+445,Network & Infrastructure,Wi-Fi Access Points for IoT Device Testing
+446,Network & Infrastructure,Network Cable Crimpers and Testers
+447,Network & Infrastructure,RJ45 Pass-Through Connectors and Cat6 Cable Spools
+448,Network & Infrastructure,Server Rack Cabinets for Tech Storage
+449,Electrical & Power,Uninterruptible Power Supplies (UPS) for Workstations
+450,Network & Infrastructure,NAS Storage Servers for Student CAD Archives
+451,"3D Printing, Laser & CNC",Filament Recycling Extruders (for 3D print waste)
+452,"3D Printing, Laser & CNC",Plastic Shredders for Recycling Stations
+453,Electronics & Prototyping,Solar Panel Demonstration Kits with Multimeters
+454,Electronics & Prototyping,Wind Turbine Demonstration Generators
+455,Electronics & Prototyping,Fuel Cell Science Education Kits
+456,Robotics & Mechatronics,Hydraulic Pneumatic Training Workbenches
+457,Robotics & Mechatronics,Mechatronics Modular Conveyor Belt Systems
+458,Robotics & Mechatronics,Automated Storage and Retrieval System (ASRS) Models
+459,Safety & First Aid,Industrial Safety Interlock Switches
+460,Safety & First Aid,Emergency Stop Push Button Enclosures
+461,Safety & First Aid,High-Visibility Safety Floor Marking Tape
+462,Safety & First Aid,Non-Slip Stair Treads and Floor Coatings
+463,Safety & First Aid,Wall-Mounted First Aid Eye Wash Bottles
+464,Safety & First Aid,Burn Gel and Dressing Refill Packs
+465,Safety & First Aid,Hearing Protection Earplug Refill Stations
+466,PPE & Protection,Dust Mask and Respirator Cartridge Dispensers
+467,Workshop Furniture & Storage,Heavy-Duty Apron Hooks and Storage Racks
+468,Workshop Furniture & Storage,Student Project Bin Storage Shelving Units
+469,Workshop Furniture & Storage,Clear Acrylic Display Cases for Finished Projects
+470,Design & Documentation,Mobile Whiteboards and Flipchart Stands
+471,Design & Documentation,Cork Noticeboards for Workshop Notices
+472,Workshop Furniture & Storage,Magnetic Tool Holders and Bars
+473,Workshop Furniture & Storage,Pegboard Hooks and Holder Assortments
+474,Workshop Furniture & Storage,Plastic Parts Bin Wall Panels
+475,Workshop Furniture & Storage,Heavy-Duty Casters and Wheels for Mobile Carts
+476,Workshop Furniture & Storage,Leveling Feet for Heavy Workshop Machines
+477,Workshop Furniture & Storage,Anti-Vibration Machine Mount Pads
+478,Fasteners & Hardware,Expansion Anchor Bolts for Floor-Standing Equipment
+479,Design & Documentation,Digital Clock and Countdown Timers for Lab Sessions
+480,Network & Infrastructure,Workshop PA or Intercom System Speakers
+481,Network & Infrastructure,Security Keycard Access Scanners for Machine Rooms
+482,Network & Infrastructure,CCTV Security Cameras for Workshop Monitoring
+483,Safety & First Aid,Fire Alarm Strobe Lights for High-Noise Areas
+484,Safety & First Aid,Emergency Exit Directional Signage
+485,Safety & First Aid,Spill Kit Wheeled Bins
+486,Cleaning & Maintenance,Heavy-Duty Steel Waste Drum Cans
+487,Safety & First Aid,Oily Rag Safety Cans (Self-Closing Lid)
+488,Safety & First Aid,Flammable Liquid Safety Storage Cans
+489,Drilling & Cutting Tools,Precision Pin Vice Drill Bit Sets (Micro-bits)
+490,Drilling & Cutting Tools,Extra-Length Extra-Reach Drill Bits
+491,Drilling & Cutting Tools,Step Drill Bits (Cone Drills for Sheet Metal)
+492,Drilling & Cutting Tools,Left-Handed Drill Bits for Screw Extraction
+493,Drilling & Cutting Tools,Broken Screw Extractor Sets
+494,Pneumatics & Air Tools,Pneumatic Grease Guns and Cartridges
+495,Consumables & Spares,Machine Way Lubrication Oil
+496,Consumables & Spares,WD-40 / Penetrating Fluid Bulk Cans
+497,Consumables & Spares,Heavy-Duty Silicone Spray Lubricants
+498,Consumables & Spares,Dry PTFE Lubricant Sprays
+499,Consumables & Spares,Rust Preventative Inhibitor Sprays
+500,Consumables & Spares,Precision Instrument Maintenance Cleaning Kits

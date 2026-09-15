@@ -1,0 +1,503 @@
+Workshop Equipment Library - 500 Items
+=============================================
+
+001. Pillar Drills
+002. Bandsaws
+003. Metal and Wood Centre Lathes
+004. Bench Grinders and Bandfacers
+005. Scroll Saws
+006. Pillar-Mounted Mortisers
+007. Enclosed CO2 Laser Cutters
+008. FDM 3D Printers
+009. Compact CNC Routers
+010. Vinyl Cutters
+011. Vacuum Formers
+012. Resin (SLA) 3D Printers
+013. Microcontrollers and Prototyping Kits
+014. Robotics Platforms
+015. Temperature-Controlled Soldering Stations
+016. Digital Multimeters and DC Power Supplies
+017. Entry-Level Oscilloscopes
+018. Component Storage and Organizer Bins
+019. Engineer's Squares and Try Squares
+020. Steel Rules and Digital Calipers
+021. Tenon Saws and Coping Saws
+022. Workshop Files and Chisels
+023. Shadow-Boarded Tool Storage Trolleys
+024. Center Punches and Scriber Needles
+025. Rivet Guns and Hot Glue Stations
+026. Pin Vices
+027. Jeweler's Saw Frames
+028. Heavy-Duty Staple Guns
+029. Heat Guns
+030. Woodworking Workbenches with Vices
+031. Metalworking Heavy Vices
+032. Surface Planers and Jointers
+033. Thickness Planers
+034. Table Saws with Riving Knives
+035. Radial Arm Saws
+036. Compound Miter Saws
+037. Biscuit Jointers
+038. Dowel Jigs
+039. Pocket Hole Jigs
+040. Pneumatic Brad Nailers
+041. Air Compressors
+042. Dust Extraction Systems
+043. Cyclone Separators
+044. Flexible Extraction Arms
+045. Fume Extraction Units for Soldering
+046. Portable Fire Blankets and Extinguishers
+047. First Aid Kits for Workshops
+048. PPE Storage Cabinets
+049. Safety Glasses and Goggles Dispensers
+050. Face Shields
+051. Over-Ear Hearing Protection
+052. Nitrile and Leather Work Gloves
+053. Soldering Mat Anti-Static ESD Sets
+054. ESD Wrist Straps
+055. Benchtop Magnifying Lamps
+056. Digital Micrometers
+057. Vernier Height Gauges
+058. Feeler Gauges
+059. Dial Test Indicators (DTIs)
+060. Granite Surface Plates
+061. V-Blocks and Clamps
+062. Center Squares
+063. Combination Squares
+064. Radius and Fillet Gauges
+065. Thread Pitch Gauges
+066. Torque Wrenches
+067. Tap and Die Sets
+068. Countersink Drill Bits
+069. Forstner Drill Bits
+070. Spade Drill Bits
+071. High-Speed Steel (HSS) Twist Drill Sets
+072. Masonry Drill Bits
+073. Hole Saw Kits
+074. Router Table Setups
+075. Handheld Wood Routers
+076. Straight and Profile Router Bits
+077. Palm Sanders
+078. Random Orbital Sanders
+079. Belt Sanders
+080. Spindle Sanders
+081. Pneumatic Die Grinders
+082. Rotary Tool Kits (e.g., Dremel)
+083. Flexible Shaft Attachments for Rotary Tools
+084. Engraving Cutters
+085. Woodturning Chisel Sets
+086. Parting Tools for Lathes
+087. Calipers for Turning (Inside and Outside)
+088. Live Centers for Lathes
+089. Chuck Keys and Safety Chucks
+090. Magnetic Base Indicator Holders
+091. Digital Laser Distance Meters
+092. Infrared Thermometers
+093. Digital Anemometers
+094. Lux Meters for Light Testing
+095. Sound Level Meters
+096. Breadboards and Jump Wires
+097. Perfboards and Stripboards
+098. PCB Etching Tanks
+099. UV Exposure Boxes for PCBs
+100. Component Sorting Trays
+101. SMD Component Books
+102. Desoldering Pumps and Wick
+103. Helping Hand Soldering Stands
+104. Hot Air Rework Stations
+105. Variable Bench Transformers (Variacs)
+106. Function Generators
+107. Logic Analyzers
+108. Raspberry Pi Starter Kits
+109. Arduino Sensor Modules
+110. ESP32 Wi-Fi/Bluetooth Modules
+111. Servo Motors (Micro and Standard)
+112. Stepper Motors and Drivers
+113. DC Gearmotors
+114. Continuous Rotation Servos
+115. Ultrasonic Distance Sensors
+116. Infrared Line Tracking Sensors
+117. PIR Motion Sensors
+118. Temperature and Humidity Sensors (DHT11/DHT22)
+119. Photoresistors and Light Sensors
+120. Hall Effect Sensors
+121. Force Sensitive Resistors (FSRs)
+122. Membrane Keypads
+123. 16x2 LCD Character Displays
+124. OLED Graphic Displays
+125. NeoPixel LED Strips
+126. 7-Segment LED Displays
+127. Piezo Buzzers and Speakers
+128. Relay Modules (1-channel and 4-channel)
+129. Pushbutton Switches and Toggle Switches
+130. Potentiometers and Rotary Encoders
+131. Battery Holders (AA, AAA, 9V, LiPo)
+132. LiPo Battery Chargers and Safety Bags
+133. Jumper Wire Crimping Tools
+134. Wire Strippers and Cutters
+135. Coaxial Cable Strippers
+136. Heat Shrink Tubing Assortments
+137. Cable Ties and Mount Bases
+138. Hook-up Wire Spools (Assorted Colors)
+139. Breadboard Power Supply Modules
+140. USB-to-UART Serial Converters
+141. VEX IQ Expansion Kits
+142. VEX V5 Competition Elements
+143. VEX Field Perimeter Tiles
+144. FTC/FRC Aluminum Extrusion Profiles
+145. T-Nut and Fastener Assortments
+146. Acrylic Sheets (Assorted Colors and Thicknesses)
+147. MDF Panels for Laser Cutting
+148. Plywood Sheets (Birch and Poplar)
+149. High-Density Urethane Tooling Foam
+150. PLA Filament Spools
+151. PETG Filament Spools
+152. ABS Filament Spools
+153. TPU Flexible Filament
+154. SLA Photopolymer Resin Bottles
+155. Isopropyl Alcohol (IPA) Cleaning Stations
+156. UV Curing Chambers for Resin Prints
+157. Digital Caliper Battery Replacements
+158. Replacement Laser Cutter Lenses and Mirrors
+159. CNC Router End Mills (Up-cut and Down-cut)
+160. V-Carving Router Bits
+161. Safety Push Sticks and Featherboards
+162. Magnetic Workholding Clamps
+163. Benchtop Magnifiers with Ring Lights
+164. Ultrasonic Cleaners for Small Parts
+165. Parts Washing Sinks
+166. Heavy-Duty Storage Racks
+167. Mobile Tool Cabinets
+168. Plastic Storage Bins with Labeled Drawers
+169. Clear Material Storage Towers
+170. Wall-Mounted Pegboards
+171. Heavy-Duty Extension Cords
+172. Overhead Retractable Cord Reels
+173. Industrial Floor Scrubbers or Mop Stations
+174. Trash and Recycling Bins for Metal/Wood Scrap
+175. Spill Containment Kits
+176. Eye Wash Stations
+177. Master Key Lockboxes for Dangerous Tools
+178. Emergency Power Cut-Off Mushroom Buttons
+179. LED Task Lighting Strips for Workbenches
+180. Document Cameras for Demonstration Benches
+181. Interactive Whiteboards or Projectors for Teaching
+182. CAD Workstation Desktop PCs
+183. Dual Monitor Mounts for Design Desks
+184. Ergonomic Drafting Chairs
+185. Storage Lockers for Student Projects
+186. Prototyping Tray Bins for Individual Groups
+187. Heavy-Duty Staplers and Hole Punchers
+188. Laminators for Poster and Resource Making
+189. Heavy-Duty Paper Trimmers / Guillotines
+190. Cutting Mats (Self-Healing A1/A2)
+191. Utility Knives and Replacement Blades
+192. Spray Paint Booths with Exhaust Fans
+193. Sandblasting Cabinets
+194. Part Tumblers / Vibratory Polishers
+195. Electric Tapping Machines
+196. Hydraulic Shop Presses
+197. Pipe and Tube Benders
+198. Sheet Metal Brakes and Shears
+199. Slip Rollers for Sheet Metal
+200. Benchtop English Wheels
+201. Planishing Hammers
+202. Spot Welders for Sheet Metal
+203. MIG Welders
+204. TIG Welders
+205. Arc (Stick) Welders
+206. Oxy-Acetylene Torch Kits
+207. Welding Helmets (Auto-Darkening)
+208. Welding Jackets and Leather Aprons
+209. Welding Chipping Hammers and Wire Brushes
+210. Magnetic Welding Clamps and Holders
+211. Plasma Cutting Torches
+212. Carbon Arc Gouging Torches
+213. Industrial Workbenches with Steel Tops
+214. Anti-Fatigue Standing Mats
+215. Heavy-Duty Chain Hoists
+216. Shop Cranes / Engine Hoists
+217. Pallet Jacks
+218. Forklifts or Electric Stackers
+219. Heavy-Duty Storage Cages for Gas Cylinders
+220. Cylinder Trolleys
+221. Chemical Storage Flammable Cabinets
+222. Safety Data Sheet (SDS) Binders and Wall Stations
+223. Lockout/Tagout (LOTO) Station Kits
+224. Spill Response Absorption Pads and Booms
+225. Industrial Vacuum Cleaners (Class H for Dust)
+226. Wet/Dry Shop Vacuums
+227. Air Hose Reels
+228. Pneumatic Blow Guns with Safety Tips
+229. Air Filter Regulator Lubricators (FRL units)
+230. Digital Torque Multipliers
+231. Pneumatic Impact Wrenches
+232. Cordless Combi Drill Kits
+233. Cordless Impact Drivers
+234. Cordless Right-Angle Drills
+235. Cordless Circular Saws
+236. Cordless Reciprocating Saws
+237. Cordless Multi-Tools (Oscillating)
+238. High-Capacity Battery Charging Stations
+239. Extra Lithium-Ion Tool Battery Packs
+240. Laser Alignment Tools
+241. Optical Levels and Tripods
+242. Digital Inclinometers and Angle Finders
+243. Telescoping Inspection Mirrors
+244. Magnetic Pickup Tools
+245. Precision Pin Punch Sets
+246. Cold Chisel Sets
+247. Crowbars and Pry Bars
+248. Allen Key (Hex Key) Fold-out and T-Handle Sets
+249. Torx Key Sets
+250. Adjustable Spanners (Wrenches)
+251. Combination Ring and Open-End Spanner Sets
+252. Socket Sets (Metric and Imperial)
+253. Deep Impact Sockets
+254. Pipe Wrenches (Stillson Wrenches)
+255. Basin Wrench Sets
+256. Locking Pliers (Vise-Grips)
+257. Long-Nose Pliers
+258. Diagonal Cutting Pliers
+259. Combination Lineman's Pliers
+260. Retaining Ring (Circlip) Pliers
+261. Slip-Joint Pliers
+262. Water Pump Pliers (Tongue-and-Groove)
+263. Insulated Electrician's Pliers
+264. Insulated Screwdriver Sets (1000V rated)
+265. Precision Screwdriver Sets (Electronics)
+266. Ratcheting Screwdrivers with Bit Storage
+267. Stubby Screwdrivers
+268. Offset Screwdrivers
+269. Claw Hammers
+270. Ball-Peen Hammers
+271. Club Hammers / Lump Hammers
+272. Rubber Mallets
+273. Dead-Blow Mallets
+274. Brass Hammers
+275. Rawhide Mallets
+276. Woodcarving Mallets
+277. Japanese Pull Saws (Dozuki and Kataba)
+278. Bow Saws
+279. Hacksaws and Spare Blades
+280. Drywall Saws
+281. Keyhole Saws
+282. Fret Saws
+283. Glass Cutters
+284. Tile Cutters (Manual and Electric)
+285. Grout Floats and Trowels
+286. Masonry Trowels
+287. Plastering Hawks and Floats
+288. Paint Brushes (Various Widths)
+289. Foam Paint Rollers and Trays
+290. Paint Scrapers and Putty Knives
+291. Wallpaper Smoothers and Seam Rollers
+292. Hot Wire Foam Cutters
+293. Architectural Scale Rulers
+294. Cutting Mats with Grid Lines
+295. Heavy-Duty Drafting Compasses
+296. French Curves and Splines
+297. T-Squares and Parallel Motion Straightedges
+298. Drawing Boards with Parallel Rules
+299. Sketchbooks and Technical Graph Paper Pads
+300. Fineliners and Technical Drawing Pens
+301. Mechanical Pencils (0.5mm and 0.7mm)
+302. Polymer Erasers and Kneaded Erasers
+303. Metal Pencil Sharpeners
+304. Drafting Tape and Low-Tack Masking Tape
+305. Hot Melt Glue Guns (Industrial Grade)
+306. Super Glue (Cyanoacrylate) Accelerators
+307. Epoxy Resin and Hardener Kits
+308. Contact Adhesive Tins
+309. PVA Wood Glue Bottles
+310. Polyurethane Construction Adhesives
+311. Silicone Sealant Tubes and Guns
+312. Double-Sided Foam Tape Rolls
+313. Heavy-Duty Duct Tape
+314. Packaging Tape Dispensers
+315. Stretch Wrap Dispensers
+316. Heavy-Duty Zip Ties (Various Lengths)
+317. Velcro Hook and Loop Rolls
+318. Magnetic Sheet Rolls
+319. Cork Sheets and Rolls
+320. Balsa Wood Blocks and Sheets
+321. Basswood Sheets and Strips
+322. Styrofoam Blocks
+323. PVC Foam Boards (Sintra)
+324. Corrugated Plastic Sheets (Coroplast)
+325. Polycarbonate Sheets (Lexan)
+326. Nylon Rods and Sheets
+327. Delrin (Acetal) Plastic Stock
+328. Aluminum Flat Bars and Angles
+329. Brass Rods and Tubes
+330. Copper Sheets and Wires
+331. Steel Rods, Tubes, and Flat Stock
+332. Threaded Rods (All-Thread)
+333. Hex Nuts and Lock Nuts
+334. Flat Washers and Spring Washers
+335. Machine Screws (Pan Head and Countersunk)
+336. Socket Head Cap Screws
+337. Wood Screws (Countersunk)
+338. Self-Tapping Sheet Metal Screws
+339. Pop Rivets and Back-up Washers
+340. Cotter Pins and R-Clips
+341. Dowel Pins (Wood and Metal)
+342. Thread Inserts for Wood and Plastic
+343. Pillow Block Bearings
+344. Linear Guide Rails and Bearings
+345. GT2 Timing Belts and Pulleys
+346. Metric Spur Gears and Pinions
+347. Roller Chain and Sprockets
+348. Shaft Collars (Clamped and Set Screw)
+349. Universal Joints and Shaft Couplings
+350. Pneumatic Air Cylinders and Valves
+351. Solenoid Valves for Automation
+352. Air Pressure Regulators with Gauges
+353. Polyurethane Pneumatic Tubing
+354. Quick-Connect Pneumatic Fittings
+355. Foot Switches for Machine Control
+356. Limit Switches with Roller Levers
+357. Inductive Proximity Sensors
+358. Capacitive Proximity Sensors
+359. Photoelectric Beam Sensors
+360. Color Sensor Modules
+361. Gyroscope and Accelerometer Breakout Boards (MPU6050)
+362. Real-Time Clock (RTC) Modules
+363. SD Card Logging Modules
+364. RFID Reader/Writer Modules
+365. Bluetooth Low Energy (BLE) Modules
+366. LoRa Transceiver Modules
+367. GPS Receiver Modules
+368. Fingerprint Scanner Modules
+369. Matrix Keypads
+370. Joystick Breakout Modules
+371. Touch Sensor Modules (Capacitive)
+372. Sound Detection Sensor Modules
+373. Flame and Gas Sensor Modules
+374. Water Level and Moisture Sensors
+375. Current Sensor Modules (ACS712)
+376. Step-Down Buck Converters (LM2596)
+377. Step-Up Boost Converters
+378. Motor Driver Shields (L298N, TB6612)
+379. MOSFET Power Control Modules
+380. Solid State Relays (SSRs)
+381. Transistor Assortment Kits (NPN/PNP)
+382. Diode Assortment Kits (Rectifier and Zener)
+383. LED Assortments (Red, Green, Blue, Yellow, RGB)
+384. Resistor Assortment Books (1/4W Metal Film)
+385. Ceramic and Electrolytic Capacitor Assortments
+386. Inductor Assortment Kits
+387. Integrated Circuit (IC) Socket Adapters
+388. Logic Gate IC Assortments (7400 series)
+389. Operational Amplifier ICs (LM358, TL072)
+390. Voltage Regulators (7805, 7812)
+391. Terminal Blocks (Screw-type PCB mount)
+392. Enclosure Boxes for Electronics (ABS project boxes)
+393. Heat Shrink Solder Seal Connectors
+394. Bullet and Spade Electrical Connectors
+395. Anderson Powerpole Connectors
+396. XT60 and XT30 High-Current Battery Connectors
+397. Banana Plug Test Leads
+398. Alligator Clip Test Leads
+399. BNC to Oscilloscope Probes
+400. IC Test Hooks and Grabber Clips
+401. Breadboard Jumper Wire Flex Ribbons
+402. Custom PCB Milling Bits (V-bits and end mills)
+403. Chemical Etchant Crystals (Ferric Chloride)
+404. Tinning Solution for Copper PCBs
+405. Conformal Coating Spray for Electronics Protection
+406. Thermal Paste and Thermal Pads
+407. Copper Foil Tape with Conductive Adhesive
+408. Conductive Ink Pens
+409. 3D Printer Nozzle Cleaning Needle Kits
+410. Replacement 3D Printer Hotends
+411. 3D Printer Build Plates (PEI magnetic sheets)
+412. Digital Filament Dry Boxes and Dehydrators
+413. Laser Cutter Honeycomb Bed Cleaners
+414. Replacement Exhaust Ducting Hoses for Lasers
+415. Industrial Air Purifiers for Laser/Soldering Fumes
+416. Replacement Carbon and HEPA Filter Cartridges
+417. Spare Bandsaw Blades (Various TPI)
+418. Replacement Scroll Saw Blade Assortments
+419. Woodturning Lathe Faceplates and Chucks
+420. Lathe Parting Tools and Boring Bars
+421. Micrometer Calibration Standards
+422. Dial Indicator Magnetic Stands
+423. Edge Finders for CNC Mills
+424. Optical Center Finders
+425. Thread-Cutting Fluid and Tapping Oil
+426. Cutting Fluid Applicator Brushes
+427. Heavy-Duty Degreaser Solutions
+428. Parts Cleaning Brush Sets
+429. Shop Towel Dispensers and Rolls
+430. Absorbent Floor Sweep Granules
+431. Magnetic Sweep Sweepers on Wheels
+432. Telescopic Inspection Cameras / Endoscopes
+433. Thermal Imaging Cameras (Handheld)
+434. Digital Tachometers for Motor RPM Testing
+435. Stroboscopes for Motion Analysis
+436. Vibration Meters for Machine Maintenance
+437. Ultrasonic Thickness Gauges
+438. Digital Coating Thickness Gauges
+439. Webster Hardness Testers
+440. Portable Leeb Hardness Testers
+441. 3D Laser Scanners (Handheld)
+442. Photogrammetry Turntables
+443. Overhead Document Scanners for Portfolios
+444. High-Speed Network Switches for Lab PCs
+445. Wi-Fi Access Points for IoT Device Testing
+446. Network Cable Crimpers and Testers
+447. RJ45 Pass-Through Connectors and Cat6 Cable Spools
+448. Server Rack Cabinets for Tech Storage
+449. Uninterruptible Power Supplies (UPS) for Workstations
+450. NAS Storage Servers for Student CAD Archives
+451. Filament Recycling Extruders (for 3D print waste)
+452. Plastic Shredders for Recycling Stations
+453. Solar Panel Demonstration Kits with Multimeters
+454. Wind Turbine Demonstration Generators
+455. Fuel Cell Science Education Kits
+456. Hydraulic Pneumatic Training Workbenches
+457. Mechatronics Modular Conveyor Belt Systems
+458. Automated Storage and Retrieval System (ASRS) Models
+459. Industrial Safety Interlock Switches
+460. Emergency Stop Push Button Enclosures
+461. High-Visibility Safety Floor Marking Tape
+462. Non-Slip Stair Treads and Floor Coatings
+463. Wall-Mounted First Aid Eye Wash Bottles
+464. Burn Gel and Dressing Refill Packs
+465. Hearing Protection Earplug Refill Stations
+466. Dust Mask and Respirator Cartridge Dispensers
+467. Heavy-Duty Apron Hooks and Storage Racks
+468. Student Project Bin Storage Shelving Units
+469. Clear Acrylic Display Cases for Finished Projects
+470. Mobile Whiteboards and Flipchart Stands
+471. Cork Noticeboards for Workshop Notices
+472. Magnetic Tool Holders and Bars
+473. Pegboard Hooks and Holder Assortments
+474. Plastic Parts Bin Wall Panels
+475. Heavy-Duty Casters and Wheels for Mobile Carts
+476. Leveling Feet for Heavy Workshop Machines
+477. Anti-Vibration Machine Mount Pads
+478. Expansion Anchor Bolts for Floor-Standing Equipment
+479. Digital Clock and Countdown Timers for Lab Sessions
+480. Workshop PA or Intercom System Speakers
+481. Security Keycard Access Scanners for Machine Rooms
+482. CCTV Security Cameras for Workshop Monitoring
+483. Fire Alarm Strobe Lights for High-Noise Areas
+484. Emergency Exit Directional Signage
+485. Spill Kit Wheeled Bins
+486. Heavy-Duty Steel Waste Drum Cans
+487. Oily Rag Safety Cans (Self-Closing Lid)
+488. Flammable Liquid Safety Storage Cans
+489. Precision Pin Vice Drill Bit Sets (Micro-bits)
+490. Extra-Length Extra-Reach Drill Bits
+491. Step Drill Bits (Cone Drills for Sheet Metal)
+492. Left-Handed Drill Bits for Screw Extraction
+493. Broken Screw Extractor Sets
+494. Pneumatic Grease Guns and Cartridges
+495. Machine Way Lubrication Oil
+496. WD-40 / Penetrating Fluid Bulk Cans
+497. Heavy-Duty Silicone Spray Lubricants
+498. Dry PTFE Lubricant Sprays
+499. Rust Preventative Inhibitor Sprays
+500. Precision Instrument Maintenance Cleaning Kits
