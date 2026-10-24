@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DAB Biology Unit 1 — Cells &amp; Microbes Study Site</title>
+<style>
+:root{--bg:#0f172a;--card:#1e293b;--card2:#243349;--line:#334155;--txt:#e2e8f0;--mut:#94a3b8;--acc:#38bdf8;--ok:#4ade80;--bad:#f87171;--warn:#fbbf24}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.5;padding-top:56px}
+nav{position:fixed;top:0;left:0;right:0;background:#0b1120;border-bottom:1px solid var(--line);z-index:50;display:flex;overflow-x:auto;white-space:nowrap}
+nav button{background:none;border:none;color:var(--mut);padding:14px 16px;font-size:14px;font-weight:600;cursor:pointer;border-bottom:3px solid transparent}
+nav button.active{color:var(--acc);border-bottom-color:var(--acc)}
+.container{max-width:1100px;margin:0 auto;padding:20px}
+.tab{display:none}.tab.active{display:block}
+h1{font-size:1.9rem;color:#fff;margin-bottom:6px}
+h2{font-size:1.4rem;color:var(--acc);margin:26px 0 10px;border-left:4px solid var(--acc);padding-left:10px}
+h3{font-size:1.1rem;color:#fff;margin:16px 0 6px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:12px 0}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:14px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14px}
+th{background:var(--card2);color:#fff;text-align:left;padding:8px;border:1px solid var(--line)}
+td{padding:7px 8px;border:1px solid var(--line);vertical-align:top}
+tr:hover td{background:rgba(56,189,248,.06)}
+.tip{border-left:4px solid var(--acc);background:rgba(56,189,248,.08);padding:10px 14px;border-radius:0 8px 8px 0;margin:10px 0}
+.warn{border-left:4px solid var(--warn);background:rgba(251,191,36,.08);padding:10px 14px;border-radius:0 8px 8px 0;margin:10px 0}
+.ok{border-left:4px solid var(--ok);background:rgba(74,222,128,.08);padding:10px 14px;border-radius:0 8px 8px 0;margin:10px 0}
+.fig{background:#fff;border-radius:10px;padding:12px;margin:12px 0;text-align:center}
+.fig svg{max-width:100%;height:auto}
+.fig .cap{color:#374151;font-size:13px;margin-top:6px;font-style:italic}
+.term{display:grid;grid-template-columns:auto 1fr;gap:8px 14px;font-size:14px}
+.term b{color:var(--acc)}
+.chip{display:inline-block;background:var(--card2);border:1px solid var(--line);border-radius:20px;padding:3px 12px;font-size:13px;margin:3px}
+.btn{background:var(--acc);color:#062033;border:none;border-radius:8px;padding:8px 16px;font-weight:700;cursor:pointer;margin:6px 6px 6px 0}
+.btn.ghost{background:var(--card2);color:var(--txt);border:1px solid var(--line)}
+.btn:disabled{opacity:.5;cursor:default}
+.progress{height:8px;background:var(--card2);border-radius:5px;overflow:hidden;margin:8px 0}
+.progress div{height:100%;background:var(--acc);width:0%;transition:width .3s}
+.tag{display:inline-block;font-size:11px;background:var(--card2);border:1px solid var(--line);border-radius:5px;padding:1px 8px;margin-left:8px;color:var(--mut);vertical-align:middle}
+code{background:#0b1120;border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-size:13px}
+input[type=text]{background:#0b1120;border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:8px 12px;font-size:14px;width:100%;max-width:360px}
+@media(max-width:700px){.grid2,.grid3{grid-template-columns:1fr}.container{padding:14px}}
+</style>
+</head>
+<body>
+<nav>
+<button class="active" onclick="switchTab('home')">🏠 Home</button>
+<button onclick="switchTab('life')">✨ Living Things</button>
+<button onclick="switchTab('cells')">🧫 Cells</button>
+<button onclick="switchTab('move')">🌊 Transport</button>
+<button onclick="switchTab('microbes')">🦠 Microbes</button>
+<button onclick="switchTab('quiz')">📝 Quiz Zone</button>
+<button onclick="switchTab('glossary')">📖 Glossary</button>
+</nav>
+<div class="container">
+
+<!-- ============ HOME ============ -->
+<section id="tab-home" class="tab active">
+<h1>DAB Biology Unit 1 — Cells &amp; Microbes</h1>
+<p style="color:var(--mut)">Interactive study site built from your Island School student booklet (Revised June 2026). Everything works offline — no internet needed.</p>
+
+<div class="card">
+<h3>🚀 What's inside</h3>
+<div class="grid3">
+<div class="card"><b>✨ Living Things</b><br><span style="color:var(--mut)">MRS C GREN + the 5 kingdoms</span></div>
+<div class="card"><b>🧫 Cells</b><br><span style="color:var(--mut)">Animal, plant, bacteria, virus + microscope</span></div>
+<div class="card"><b>🌊 Transport</b><br><span style="color:var(--mut)">Diffusion, osmosis, active transport</span></div>
+<div class="card"><b>🦠 Microbes</b><br><span style="color:var(--mut)">Pathogens &amp; diseases</span></div>
+<div class="card"><b>📝 Quiz Zone</b><br><span style="color:var(--mut)">3 quiz games + score tracking</span></div>
+<div class="card"><b>📖 Glossary</b><br><span style="color:var(--mut)">Every keyword you need</span></div>
+</div>
+</div>
+
+<div class="card">
+<h3>✅ Syllabus checklist — tick off what you know</h3>
+<p style="color:var(--mut);font-size:13px">Click to tick. Your progress is saved on this computer.</p>
+<div id="checklist" style="margin-top:8px"></div>
+<p id="check-progress" style="margin-top:10px;font-weight:700;color:var(--acc)"></p>
+<div class="progress"><div id="check-bar"></div></div>
+<div style="text-align:right"><button class="btn ghost" onclick="clearChecks()">Clear all</button><button class="btn" onclick="checkAll()">Mark all done</button></div>
+</div>
+
+<div class="card">
+<h3>🎯 How to revise with this site</h3>
+<ol style="padding-left:20px">
+<li>Read <b>Living Things</b> and <b>Cells</b> — learn the organelles and the kingdoms.</li>
+<li>Study <b>Transport</b> — diffusion vs osmosis vs active transport is <i>guaranteed</i> to come up.</li>
+<li>Do the <b>Quiz Zone</b> — MCQ quiz, matching game, and label-the-cell.</li>
+<li>Re-take quizzes until you score 90%+. Your best scores are saved.</li>
+<li>Use the <b>Glossary</b> to look anything up fast.</li>
+</ol>
+</div>
+
+<div class="card">
+<h3>🏆 Your best scores</h3>
+<table>
+<tr><th>Quiz</th><th>Best score</th><th>Last attempt</th></tr>
+<tr><td>MCQ Quiz</td><td id="stat-mcq">—</td><td id="stat-mcq-last">—</td></tr>
+<tr><td>Matching game</td><td id="stat-match">—</td><td id="stat-match-last">—</td></tr>
+<tr><td>Label the cell</td><td id="stat-label">—</td><td id="stat-label-last">—</td></tr>
+</table>
+</div>
+</section><!-- ============ LIVING THINGS ============ -->
+<section id="tab-life" class="tab">
+<h1>✨ Lesson 1 — Characteristics of Living Organisms</h1>
+<div class="tip">🎓 <b>Exam need-to-know:</b> you must be able to <i>describe</i> each characteristic — not just name it. 2-mark questions usually want a short explanation.</div>
+
+<div class="card">
+<h3>MRS C GREN — the 8 characteristics of life</h3>
+<table>
+<tr><th>Letter</th><th>Characteristic</th><th>What it means</th></tr>
+<tr><td><b>M</b></td><td>Movement</td><td>Moving part of the organism, or moving things inside it</td></tr>
+<tr><td><b>R</b></td><td>Respiration</td><td>Releasing energy from food (glucose) — usually by aerobic respiration in mitochondria</td></tr>
+<tr><td><b>S</b></td><td>Sensitivity</td><td>Detecting and responding to changes in the surroundings (stimuli)</td></tr>
+<tr><td><b>C</b></td><td>Control</td><td>Controlling internal conditions (homeostasis) — e.g. body temperature, water levels</td></tr>
+<tr><td><b>G</b></td><td>Growth</td><td>Getting bigger / increasing in size</td></tr>
+<tr><td><b>R</b></td><td>Reproduction</td><td>Making more of the same kind of organism</td></tr>
+<tr><td><b>E</b></td><td>Excretion</td><td>Removing waste products of metabolism (e.g. CO₂, urea)</td></tr>
+<tr><td><b>N</b></td><td>Nutrition</td><td>Taking in food/raw materials for energy and growth</td></tr>
+</table>
+<div class="warn">⚠️ <b>Common trap:</b> excretion (getting rid of <i>waste made by the body</i>) is NOT the same as egestion (getting rid of undigested food). And "digestion" is NOT a characteristic of life on its own!</div>
+</div>
+
+<div class="card">
+<h3>Quick True/False — check yourself</h3>
+<table>
+<tr><th>Statement</th><th>True/False?</th></tr>
+<tr><td>All living organisms have eyes</td><td><b>False</b></td></tr>
+<tr><td>All living organisms breathe (gas exchange)</td><td><b>True</b> — they exchange gases for respiration</td></tr>
+<tr><td>All living organisms need nutrition</td><td><b>True</b></td></tr>
+<tr><td>All living organisms can reproduce</td><td><b>True</b></td></tr>
+<tr><td>All living organisms do digestion</td><td><b>False</b> — simple organisms absorb food directly</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h3>🔬 Jellyfish question (from your booklet!)</h3>
+<p>The booklet uses jellyfish as a classic exam question. Evidence jellyfish are <b>living</b>:</p>
+<ul style="padding-left:20px">
+<li>They <b>feed</b> on small fish caught in tentacles (nutrition)</li>
+<li>They take in oxygen and <b>respire</b></li>
+<li>They <b>respond</b> — nerve net coordinates responses</li>
+<li>They <b>reproduce</b> — release sperm/eggs, and some clone themselves</li>
+<li>They <b>move</b> — rhythmic pulsations of the umbrella</li>
+</ul>
+<div class="ok">💡 <b>Technique:</b> these questions want evidence FROM the passage + linking it to the characteristic name. Quote → name → explain.</div>
+</div>
+
+<div class="card">
+<h3>The 5 Kingdoms + viruses — classification table</h3>
+<table>
+<tr><th>Kingdom</th><th>Multicellular?</th><th>Nucleus?</th><th>Key features</th><th>Examples</th></tr>
+<tr><td><b>Animal</b></td><td>Yes</td><td>Yes (eukaryote)</td><td>No cell wall, no chloroplasts, nervous co-ordination, store glycogen</td><td>Human, housefly, mosquito</td></tr>
+<tr><td><b>Plant</b></td><td>Yes</td><td>Yes (eukaryote)</td><td>Chloroplasts + photosynthesis, cellulose cell wall, store starch/sucrose</td><td>Maize (cereal), peas, beans</td></tr>
+<tr><td><b>Fungi</b></td><td>Mostly (yeast is single-celled)</td><td>Yes (eukaryote)</td><td>Chitin cell wall, hyphae form a mycelium, saprotrophic nutrition (enzymes onto food, absorb), store glycogen</td><td><i>Mucor</i>, yeast</td></tr>
+<tr><td><b>Protoctist</b></td><td>No (single-celled)</td><td>Yes (eukaryote)</td><td>Microscopic; some animal-like (<i>Amoeba</i>), some plant-like (<i>Chlorella</i>)</td><td><i>Amoeba</i>, <i>Chlorella</i>, <i>Plasmodium</i> (malaria)</td></tr>
+<tr><td><b>Bacteria</b></td><td>No (single-celled)</td><td><b>No</b> (prokaryote)</td><td>Cell wall, membrane, cytoplasm, plasmids, circular chromosome; some photosynthesise</td><td><i>Lactobacillus</i> (yoghurt), <i>Pneumococcus</i> (pneumonia)</td></tr>
+<tr><td><b>Viruses</b> (not a kingdom)</td><td>—</td><td><b>No</b> — no cells at all!</td><td>Protein coat + DNA or RNA, only reproduce inside living cells, parasitic</td><td>TMV, influenza, HIV</td></tr>
+</table>
+<div class="tip">🎓 <b>Key phrase:</b> "Viruses are <i>not living organisms</i> — they are small particles made of a protein coat around one type of nucleic acid (DNA or RNA) and can only reproduce inside living cells."</div>
+</div>
+
+</section><!-- ============ CELLS ============ -->
+<section id="tab-cells" class="tab">
+<h1>🧫 Lesson 2 — Animal &amp; Plant Cells</h1>
+<div class="tip">🎓 The diagrams below are drawn to match the ones in your booklet. Learn to <b>draw + label</b> a plant cell from memory — it's a guaranteed 3 marks in the exam.</div>
+
+<div class="card">
+<h3>🐾 Animal cell</h3>
+<div class="fig">
+<svg viewBox="0 0 480 300" class="diagram" id="svg-animal" role="img" aria-label="Animal cell diagram">
+<rect x="1" y="1" width="478" height="298" fill="#fff" stroke="#cbd5e1"/>
+<ellipse cx="240" cy="150" rx="185" ry="125" fill="#ffe3e3" stroke="#e53e3e" stroke-width="4"/>
+<text x="400" y="40" font-size="13" fill="#e53e3e" text-anchor="middle" font-weight="bold" font-style="italic">cell membrane</text>
+<line x1="400" y1="46" x2="392" y2="100" stroke="#e53e3e" stroke-width="1.5"/>
+<ellipse cx="240" cy="150" rx="150" ry="95" fill="#fff0f0"/>
+<circle cx="240" cy="142" r="46" fill="#d8b4fe" stroke="#7e22ce" stroke-width="3"/>
+<text x="240" y="146" font-size="12" fill="#4c1d95" text-anchor="middle" font-weight="bold">Nucleus</text>
+<circle cx="240" cy="142" r="12" fill="#7e22ce"/>
+<text x="322" y="60" font-size="12" fill="#7e22ce" text-anchor="middle" font-weight="bold" font-style="italic">nucleus</text>
+<line x1="322" y1="66" x2="286" y2="118" stroke="#7e22ce" stroke-width="1.5"/>
+<ellipse cx="150" cy="100" rx="34" ry="20" fill="#fed7aa" stroke="#ea580c" stroke-width="2.5"/>
+<path d="M126 96 q8 -10 16 0 M142 104 q8 -10 16 0" stroke="#ea580c" stroke-width="2" fill="none"/>
+<text x="92" y="72" font-size="12" fill="#ea580c" text-anchor="middle" font-weight="bold" font-style="italic">mitochondria</text>
+<line x1="92" y1="78" x2="128" y2="92" stroke="#ea580c" stroke-width="1.5"/>
+<ellipse cx="330" cy="195" rx="34" ry="20" fill="#fed7aa" stroke="#ea580c" stroke-width="2.5"/>
+<path d="M306 191 q8 -10 16 0 M322 199 q8 -10 16 0" stroke="#ea580c" stroke-width="2" fill="none"/>
+<text x="392" y="226" font-size="12" fill="#ea580c" text-anchor="middle" font-weight="bold" font-style="italic">mitochondria</text>
+<line x1="392" y1="220" x2="356" y2="198" stroke="#ea580c" stroke-width="1.5"/>
+<g fill="#374151">
+<circle cx="185" cy="180" r="3.5"/><circle cx="205" cy="190" r="3.5"/><circle cx="225" cy="186" r="3.5"/>
+<circle cx="270" cy="105" r="3.5"/><circle cx="290" cy="118" r="3.5"/><circle cx="310" cy="128" r="3.5"/>
+<circle cx="175" cy="120" r="3.5"/><circle cx="195" cy="128" r="3.5"/><circle cx="280" cy="210" r="3.5"/>
+</g>
+<text x="150" y="250" font-size="12" fill="#374151" text-anchor="middle" font-weight="bold" font-style="italic">ribosomes (small dots)</text>
+<line x1="150" y1="244" x2="225" y2="192" stroke="#374151" stroke-width="1.5"/>
+<text x="240" y="288" font-size="11" fill="#94a3b8" text-anchor="middle">cytoplasm fills the cell — jelly-like, where reactions happen</text>
+</svg>
+<div class="cap">Animal cell: cell membrane (outer pink line), nucleus (purple), mitochondria (orange), ribosomes (grey dots), cytoplasm.</div>
+</div>
+<table>
+<tr><th>Structure</th><th>Function</th></tr>
+<tr><td>Cell membrane</td><td>Partially permeable — controls what enters/leaves the cell</td></tr>
+<tr><td>Nucleus</td><td>Contains DNA, controls cell activities</td></tr>
+<tr><td>Cytoplasm</td><td>Jelly-like; where most chemical reactions happen</td></tr>
+<tr><td>Mitochondria</td><td>Aerobic respiration — releases energy from glucose</td></tr>
+<tr><td>Ribosomes</td><td>Protein synthesis (build proteins)</td></tr>
+</table>
+</div>
+</section><div class="card">
+<h3>🌿 Plant cell</h3>
+<div class="fig">
+<svg viewBox="0 0 480 320" class="diagram" id="svg-plant" role="img" aria-label="Plant cell diagram">
+<rect x="1" y="1" width="478" height="318" fill="#fff" stroke="#cbd5e1"/>
+<rect x="14" y="14" width="452" height="292" fill="#dcfce7" stroke="#16a34a" stroke-width="5"/>
+<text x="88" y="34" font-size="12" fill="#166534" text-anchor="middle" font-weight="bold" font-style="italic">cell wall (cellulose)</text>
+<line x1="63" y1="40" x2="52" y2="52" stroke="#16a34a" stroke-width="1.5"/>
+<rect x="30" y="30" width="420" height="260" fill="#f0fdf4" stroke="#ca8a04" stroke-width="2.5" stroke-dasharray="4 3"/>
+<text x="86" y="46" font-size="11" fill="#a16207" text-anchor="middle" font-style="italic">cell membrane</text>
+<line x1="72" y1="52" x2="58" y2="62" stroke="#ca8a04" stroke-width="1.5"/>
+<ellipse cx="240" cy="168" rx="100" ry="82" fill="#bae6fd" stroke="#0284c7" stroke-width="3"/>
+<text x="240" y="172" font-size="13" fill="#075985" text-anchor="middle" font-weight="bold">vacuole</text>
+<text x="240" y="190" font-size="10" fill="#075985" text-anchor="middle">(cell sap)</text>
+<text x="358" y="104" font-size="11" fill="#0284c7" text-anchor="middle" font-weight="bold" font-style="italic">large permanent vacuole</text>
+<line x1="358" y1="110" x2="330" y2="132" stroke="#0284c7" stroke-width="1.5"/>
+<circle cx="240" cy="90" r="26" fill="#d8b4fe" stroke="#7e22ce" stroke-width="2.5"/>
+<text x="240" y="94" font-size="10" fill="#4c1d95" text-anchor="middle" font-weight="bold">nucleus</text>
+<ellipse cx="116" cy="74" rx="22" ry="13" fill="#86efac" stroke="#166534" stroke-width="2"/>
+<ellipse cx="220" cy="44" rx="15" ry="9" fill="#86efac" stroke="#166534" stroke-width="2"/>
+<ellipse cx="352" cy="70" rx="22" ry="13" fill="#86efac" stroke="#166534" stroke-width="2"/>
+<ellipse cx="378" cy="222" rx="22" ry="13" fill="#86efac" stroke="#166534" stroke-width="2"/>
+<ellipse cx="120" cy="240" rx="22" ry="13" fill="#86efac" stroke="#166534" stroke-width="2"/>
+<ellipse cx="176" cy="285" rx="18" ry="11" fill="#86efac" stroke="#166534" stroke-width="2"/>
+<ellipse cx="330" cy="286" rx="18" ry="11" fill="#86efac" stroke="#166534" stroke-width="2"/>
+<g fill="#166534">
+<circle cx="116" cy="74" r="3"/><circle cx="112" cy="70" r="3"/><circle cx="120" cy="70" r="3"/>
+<circle cx="220" cy="44" r="3"/><circle cx="216" cy="40" r="3"/><circle cx="224" cy="40" r="3"/>
+</g>
+<text x="90" y="125" font-size="11" fill="#166534" text-anchor="middle" font-weight="bold" font-style="italic">chloroplasts</text>
+<line x1="98" y1="130" x2="112" y2="88" stroke="#166534" stroke-width="1.5"/>
+<text x="420" y="163" font-size="11" fill="#166534" text-anchor="end" font-weight="bold" font-style="italic">chloroplast</text>
+<line x1="412" y1="158" x2="392" y2="222" stroke="#166534" stroke-width="1.5"/>
+<g fill="#374151">
+<circle cx="300" cy="120" r="3.5"/><circle cx="318" cy="130" r="3.5"/><circle cx="336" cy="142" r="3.5"/>
+<circle cx="150" cy="160" r="3.5"/><circle cx="150" cy="180" r="3.5"/><circle cx="262" cy="238" r="3.5"/>
+</g>
+<text x="150" y="112" font-size="10" fill="#374151" text-anchor="middle" font-weight="bold" font-style="italic">ribosomes</text>
+<line x1="150" y1="118" x2="200" y2="142" stroke="#374151" stroke-width="1.5"/>
+<ellipse cx="415" cy="44" rx="16" ry="10" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/>
+<path d="M403 42 q4 -5 8 0 M415 42 q4 -5 8 0" stroke="#ea580c" stroke-width="1.5" fill="none"/>
+<text x="415" y="84" font-size="11" fill="#ea580c" text-anchor="middle" font-weight="bold" font-style="italic">mitochondria</text>
+<line x1="415" y1="78" x2="415" y2="58" stroke="#ea580c" stroke-width="1.5"/>
+</svg>
+<div class="cap">Plant cell: cellulose cell wall (green border), cell membrane (dashed), large vacuole (blue), chloroplasts (green ovals), nucleus, mitochondria, ribosomes.</div>
+</div>
+</div>
+
+<div class="card">
+<h3>⚖️ Plant vs animal cell — the differences (classic 3-mark Q)</h3>
+<table>
+<tr><th></th><th>Plant</th><th>Animal</th></tr>
+<tr><td><b>Cell wall</b></td><td>✅ Cellulose cell wall (rigid)</td><td>❌ No cell wall</td></tr>
+<tr><td><b>Chloroplasts</b></td><td>✅ Yes (photosynthesis)</td><td>❌ No chloroplasts</td></tr>
+<tr><td><b>Vacuole</b></td><td>✅ Large permanent vacuole with cell sap</td><td>❌ No large vacuole (small/absent)</td></tr>
+<tr><td><b>Carbohydrate storage</b></td><td>Starch / sucrose</td><td>Glycogen</td></tr>
+<tr><td><b>Shape</b></td><td>Regular / rigid</td><td>Irregular, flexible</td></tr>
+</table>
+<div class="tip">🎓 The booklet also tests <b>Chlamydomonas</b> — a single-celled protoctist with chloroplasts, flagella and an eyespot. It's <i>not</i> a plant because it's single-celled and can swim using flagella. It gets energy by <b>photosynthesis</b> and its flagella let it <b>move</b>.</div>
+</div>
+
+<h2>🧿 Levels of organisation</h2>
+<div class="card">
+<div class="fig">
+<svg viewBox="0 0 480 130" class="diagram" id="svg-levels" role="img" aria-label="Levels of organisation">
+<rect x="1" y="1" width="478" height="128" fill="#fff" stroke="#cbd5e1"/>
+<g stroke="#7e22ce" stroke-width="2.5">
+<rect x="20" y="40" width="60" height="50" rx="6" fill="#ede9fe"/>
+<rect x="115" y="28" width="80" height="74" rx="10" fill="#fae8ff"/>
+<rect x="235" y="20" width="95" height="90" rx="10" fill="#e0f2fe"/>
+<path d="M372 28 q26 0 32 26 q8 34 -26 56 q-30 18 -44 -6 q-10 -18 2 -38 q10 -16 36 -38z" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5"/>
+<ellipse cx="452" cy="70" rx="22" ry="34" fill="#fff7ed" stroke="#ea580c" stroke-width="2.5"/>
+</g>
+<text x="50" y="112" font-size="11" fill="#4c1d95" text-anchor="middle" font-weight="bold">organelle</text>
+<text x="155" y="120" font-size="11" fill="#4c1d95" text-anchor="middle" font-weight="bold">cell</text>
+<text x="282" y="126" font-size="11" fill="#4c1d95" text-anchor="middle" font-weight="bold">tissue</text>
+<text x="372" y="120" font-size="11" fill="#991b1b" text-anchor="middle" font-weight="bold">organ</text>
+<text x="452" y="120" font-size="11" fill="#9a3412" text-anchor="middle" font-weight="bold">system</text>
+<g stroke="#64748b" stroke-width="2">
+<line x1="86" y1="65" x2="110" y2="65"/><polygon points="108,61 116,65 108,69" fill="#64748b"/>
+<line x1="200" y1="65" x2="230" y2="65"/><polygon points="228,61 236,65 228,69" fill="#64748b"/>
+<line x1="335" y1="65" x2="366" y2="65"/><polygon points="364,61 372,65 364,69" fill="#64748b"/>
+<line x1="410" y1="60" x2="426" y2="60"/><polygon points="424,56 432,60 424,64" fill="#64748b"/>
+</g>
+</svg>
+<div class="cap">organelle → cell → tissue → organ → system. Example: nucleus (organelle) → muscle cell → muscle tissue → heart (organ) → circulatory system.</div>
+</div>
+</div><h2>🦠 Bacteria &amp; viruses</h2>
+<div class="grid2">
+<div class="card">
+<h3>Bacterium (prokaryote)</h3>
+<div class="fig">
+<svg viewBox="0 0 480 300" class="diagram" id="svg-bacteria" role="img" aria-label="Bacterial cell diagram">
+<rect x="1" y="1" width="478" height="298" fill="#fff" stroke="#cbd5e1"/>
+<ellipse cx="240" cy="160" rx="130" ry="90" fill="#e0f2fe" stroke="#0369a1" stroke-width="4"/>
+<ellipse cx="240" cy="160" rx="116" ry="78" fill="#f0f9ff"/>
+<circle cx="240" cy="155" r="34" fill="none" stroke="#7e22ce" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="240" y="159" font-size="11" fill="#4c1d95" text-anchor="middle" font-weight="bold">circular</text>
+<text x="240" y="172" font-size="11" fill="#4c1d95" text-anchor="middle" font-weight="bold">DNA</text>
+<text x="336" y="104" font-size="11" fill="#7e22ce" text-anchor="middle" font-weight="bold" font-style="italic">circular chromosome</text>
+<line x1="328" y1="110" x2="290" y2="136" stroke="#7e22ce" stroke-width="1.5"/>
+<circle cx="190" cy="110" r="9" fill="#fcd34d" stroke="#b45309" stroke-width="2"/>
+<circle cx="215" cy="95" r="8" fill="#fcd34d" stroke="#b45309" stroke-width="2"/>
+<text x="182" y="78" font-size="11" fill="#b45309" text-anchor="middle" font-weight="bold" font-style="italic">plasmids</text>
+<line x1="186" y1="84" x2="196" y2="96" stroke="#b45309" stroke-width="1.5"/>
+<g fill="#374151">
+<circle cx="290" cy="190" r="3.5"/><circle cx="308" cy="182" r="3.5"/><circle cx="300" cy="170" r="3.5"/>
+<circle cx="180" cy="200" r="3.5"/><circle cx="165" cy="188" r="3.5"/>
+</g>
+<text x="168" y="232" font-size="10" fill="#374151" text-anchor="middle" font-weight="bold" font-style="italic">ribosomes</text>
+<line x1="170" y1="226" x2="186" y2="206" stroke="#374151" stroke-width="1.5"/>
+<path d="M370 160 q70 -10 60 -52 q-6 22 -40 30 q50 -34 30 -58 q-26 30 -60 42 q70 -30 44 -64 q-34 32 -70 42" fill="none" stroke="#0369a1" stroke-width="3.5"/>
+<text x="420" y="60" font-size="11" fill="#0369a1" text-anchor="middle" font-weight="bold" font-style="italic">flagellum</text>
+<text x="240" y="285" font-size="11" fill="#0284c7" text-anchor="middle">capsule + cell wall + cell membrane + cytoplasm</text>
+</svg>
+<div class="cap">Bacterium: cell wall/membrane, cytoplasm, circular DNA (no nucleus!), plasmids, ribosomes, sometimes a flagellum. Prokaryote = no nucleus.</div>
+</div>
+</div>
+
+<div class="card">
+<h3>Virus (NOT living)</h3>
+<div class="fig">
+<svg viewBox="0 0 480 300" class="diagram" id="svg-virus" role="img" aria-label="Virus diagram">
+<rect x="1" y="1" width="478" height="298" fill="#fff" stroke="#cbd5e1"/>
+<g transform="translate(180,150)">
+<polygon points="0,-80 76,-24 47,64 -47,64 -76,-24" fill="#fecaca" stroke="#dc2626" stroke-width="4"/>
+<polygon points="0,-80 76,-24 47,64 -47,64 -76,-24" fill="none" stroke="#991b1b" stroke-width="2" transform="scale(.62)"/>
+<circle cx="0" cy="0" r="26" fill="#7e22ce"/>
+<text x="0" y="4" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">DNA</text>
+</g>
+<text x="180" y="250" font-size="12" fill="#991b1b" text-anchor="middle" font-weight="bold" font-style="italic">protein coat (capsid)</text>
+<line x1="180" y1="243" x2="180" y2="222" stroke="#991b1b" stroke-width="1.5"/>
+<text x="300" y="120" font-size="12" fill="#4c1d95" text-anchor="middle" font-weight="bold" font-style="italic">one type of nucleic acid — DNA or RNA</text>
+<line x1="290" y1="126" x2="222" y2="140" stroke="#4c1d95" stroke-width="1.5"/>
+<g stroke="#dc2626" stroke-width="2.5">
+<ellipse cx="330" cy="210" rx="16" ry="24" fill="#fee2e2"/>
+<line x1="330" y1="234" x2="330" y2="258"/><circle cx="330" cy="262" r="5" fill="#dc2626"/>
+</g>
+<text x="340" y="252" font-size="11" fill="#991b1b" text-anchor="middle" font-weight="bold" font-style="italic">attachment proteins</text>
+<text x="330" y="90" font-size="11" fill="#64748b" text-anchor="middle">~100× smaller than bacteria</text>
+</svg>
+<div class="cap">Virus: protein coat around one type of nucleic acid (DNA or RNA). No cells, no cytoplasm, no organelles — only reproduces inside a host cell. Not living!</div>
+</div>
+</div>
+</div><h2>🔭 The light microscope</h2>
+<div class="card">
+<div class="fig">
+<svg viewBox="0 0 480 340" class="diagram" id="svg-microscope" role="img" aria-label="Light microscope labelled">
+<rect x="1" y="1" width="478" height="338" fill="#fff" stroke="#cbd5e1"/>
+<!-- arm + base -->
+<path d="M150 60 L150 250 L190 290 L120 320 L40 300 L70 280 L120 292 L150 250" fill="none" stroke="#334155" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- tube + eyepiece -->
+<rect x="132" y="20" width="16" height="70" fill="#475569" stroke="#1e293b" stroke-width="3"/>
+<rect x="126" y="14" width="28" height="16" fill="#64748b" stroke="#1e293b" stroke-width="2.5"/>
+<text x="140" y="42" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">eyepiece = 10×</text>
+<line x1="140" y1="30" x2="140" y2="24" stroke="#fff" stroke-width="1.5" opacity="0"/>
+<text x="228" y="30" font-size="11" fill="#334155" text-anchor="middle" font-weight="bold" font-style="italic">eyepiece lens</text>
+<line x1="210" y1="22" x2="156" y2="20" stroke="#334155" stroke-width="1.5"/>
+<!-- objective turret -->
+<g stroke="#1e293b" stroke-width="3" fill="#64748b">
+<path d="M180 90 l-6 34 l-20 6 M180 90 l2 40 l10 14 M180 90 l14 26 l22 2"/>
+</g>
+<text x="180" y="132" font-size="11" fill="#334155" text-anchor="middle" font-weight="bold" font-style="italic">objective lenses</text>
+<line x1="196" y1="140" x2="218" y2="150" stroke="#334155" stroke-width="1.5"/>
+<text x="216" y="136" font-size="10" fill="#475569" text-anchor="middle">(low → high power)</text>
+<!-- stage + slide + clips -->
+<rect x="130" y="150" width="170" height="10" fill="#94a3b8" stroke="#475569" stroke-width="2.5"/>
+<rect x="175" y="148" width="80" height="4" fill="#cbd5e1"/>
+<path d="M170 147 l-10 6 M260 147 l10 6" stroke="#475569" stroke-width="3"/>
+<text x="240" y="172" font-size="11" fill="#334155" text-anchor="middle" font-weight="bold" font-style="italic">stage + slide</text>
+<line x1="232" y1="178" x2="222" y2="188" stroke="#334155" stroke-width="1.5"/>
+<!-- lamp -->
+<ellipse cx="200" cy="200" rx="24" ry="12" fill="#fde68a" stroke="#b45309" stroke-width="2.5"/>
+<text x="290" y="205" font-size="11" fill="#334155" text-anchor="middle" font-weight="bold" font-style="italic">lamp / light</text>
+<line x1="272" y1="208" x2="230" y2="205" stroke="#334155" stroke-width="1.5"/>
+<!-- focusing knobs -->
+<circle cx="150" cy="235" r="16" fill="#fca5a5" stroke="#b91c1c" stroke-width="3"/>
+<text x="128" y="240" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">coarse</text>
+<circle cx="110" cy="252" r="9" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2.5"/>
+<text x="122" y="284" font-size="10" fill="#334155" text-anchor="middle" font-weight="bold">coarse focus</text>
+<line x1="118" y1="278" x2="134" y2="258" stroke="#334155" stroke-width="1.5"/>
+<text x="78" y="296" font-size="10" fill="#334155" text-anchor="middle" font-weight="bold">fine focus</text>
+<line x1="88" y1="288" x2="104" y2="262" stroke="#334155" stroke-width="1.5"/>
+</svg>
+<div class="cap">Light microscope: eyepiece → tube → objective lenses → stage (holds slide with clips) → lamp. Coarse focus (find specimen, low power only) then fine focus (sharpen; never coarse at high power).</div>
+</div>
+<div class="tip">🎓 <b>Magnification:</b> Magnification = image size ÷ actual size. Total = eyepiece × objective (e.g. 10 × 40 = 400×).</div>
+<div class="warn">⚠️ <b>SAFETY:</b> Never touch the eyepiece/objective glass (use lens tissue). At high power, use only the <b>fine</b> focus knob — using the coarse knob can crack the slide or damage the lens!</div>
+</div>
+
+<div class="card">
+<h3>How to use a microscope — correct order</h3>
+<ol style="padding-left:20px;margin-top:8px">
+<li>Switch on the microscope (turn on the lamp).</li>
+<li>Turn the nosepiece so the <b>low-power</b> objective clicks into place above the stage.</li>
+<li>Place your slide on the stage and secure it with the <b>stage clips</b>.</li>
+<li>Use the <b>rough/coarse</b> focus knob to move the stage to its <b>lowest</b> position.</li>
+<li>Look through the eyepiece and locate the specimen using the coarse knob (adjust slide position with the stage).</li>
+<li>Once in focus, increase magnification by turning the nosepiece to a higher-power objective.</li>
+<li>Sharpen with the <b>fine</b> focus knob — do NOT use the coarse knob (damages lens / cracks slide).</li>
+</ol>
+</div>
+</section><!-- ============ TRANSPORT ============ -->
+<section id="tab-move" class="tab">
+<h1>🌊 Lessons 3–6 — Diffusion, Osmosis &amp; Active Transport</h1>
+<div class="tip">🎓 <b>This is the highest-mark topic in Unit 1.</b> You MUST be able to compare all three processes in a table (2.15) and explain the factors that affect rate (2.16).</div>
+
+<h2>💨 Lesson 3 — Diffusion</h2>
+<div class="card">
+<div class="fig">
+<svg viewBox="0 0 480 210" class="diagram" id="svg-diffusion" role="img" aria-label="Diffusion diagram">
+<rect x="1" y="1" width="478" height="208" fill="#fff" stroke="#cbd5e1"/>
+<!-- start: high conc left, low conc right -->
+<rect x="20" y="40" width="130" height="130" fill="#f1f5f9" stroke="#475569" stroke-width="3"/>
+<rect x="190" y="40" width="130" height="130" fill="#f1f5f9" stroke="#475569" stroke-width="3"/>
+<g fill="#0284c7">
+<circle cx="45" cy="60" r="7"/><circle cx="75" cy="55" r="7"/><circle cx="105" cy="62" r="7"/><circle cx="135" cy="58" r="7"/>
+<circle cx="55" cy="90" r="7"/><circle cx="90" cy="85" r="7"/><circle cx="120" cy="92" r="7"/><circle cx="60" cy="120" r="7"/>
+<circle cx="95" cy="118" r="7"/><circle cx="130" cy="95" r="7"/><circle cx="80" cy="150" r="7"/><circle cx="115" cy="148" r="7"/><circle cx="145" cy="125" r="7"/>
+<circle cx="215" cy="65" r="7"/><circle cx="280" cy="145" r="7"/><circle cx="250" cy="100" r="7"/>
+</g>
+<text x="85" y="30" font-size="11" fill="#0c4a6e" text-anchor="middle" font-weight="bold">HIGH concentration</text>
+<text x="255" y="30" font-size="11" fill="#0c4a6e" text-anchor="middle" font-weight="bold">LOW concentration</text>
+<text x="85" y="195" font-size="10" fill="#64748b" text-anchor="middle">start — particles crowded</text>
+<text x="255" y="195" font-size="10" fill="#64748b" text-anchor="middle">few particles</text>
+<!-- arrow -->
+<g transform="translate(195,105)">
+<path d="M0 0 h20" stroke="#dc2626" stroke-width="3"/>
+<polygon points="24,-6 36,0 24,6" fill="#dc2626"/>
+</g>
+<text x="90" y="230" font-size="11" fill="#dc2626" text-anchor="middle" font-weight="bold">net movement DOWN the concentration gradient →</text>
+</svg>
+<div class="cap">Diffusion = net movement of particles from high → low concentration (down the gradient), until evenly spread.</div>
+</div>
+<div class="ok">📌 <b>Definition (memorise):</b> Diffusion is the <b>net movement of particles from a region of higher concentration to a region of lower concentration</b> (down the concentration gradient). It is a <b>passive</b> process — no energy needed.</div>
+<div class="card" style="margin-top:10px">
+<b>What can diffuse in/out of cells?</b>
+<ul style="padding-left:20px">
+<li><b>Into:</b> oxygen, glucose, amino acids, mineral ions, water</li>
+<li><b>Out of:</b> carbon dioxide (waste), urea</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<h3>🧊 Surface area : volume ratio — why size matters</h3>
+<div class="fig">
+<svg viewBox="0 0 480 220" class="diagram" id="svg-savol" role="img" aria-label="Surface area to volume ratio cubes">
+<rect x="1" y="1" width="478" height="218" fill="#fff" stroke="#cbd5e1"/>
+<!-- cube row -->
+<g stroke="#166534" stroke-width="2.5" fill="#bbf7d0">
+<rect x="40" y="50" width="60" height="60"/><path d="M100 50 l20 20 v60 l-20 -20 z" fill="#86efac"/><path d="M40 110 l20 20 h60 l-20 -20 z" fill="#86efac"/>
+<rect x="170" y="30" width="100" height="100"/><path d="M270 30 l30 30 v100 l-30 -30 z" fill="#86efac"/><path d="M170 130 l30 30 h100 l-30 -30 z" fill="#86efac"/>
+<rect x="350" y="10" width="140" height="140"/><path d="M490 10 l35 35 v140 l-35 -35 z" fill="#86efac"/><path d="M350 150 l35 35 h140 l-35 -35 z" fill="#86efac"/>
+</g>
+<text x="70" y="195" font-size="11" fill="#166534" text-anchor="middle" font-weight="bold">1 cm cube<br/>SA:Vol = 6:1</text>
+<text x="220" y="195" font-size="11" fill="#166534" text-anchor="middle" font-weight="bold">2 cm cube<br/>SA:Vol = 3:1</text>
+<text x="420" y="195" font-size="11" fill="#166534" text-anchor="middle" font-weight="bold">4 cm cube<br/>SA:Vol = 1.5:1</text>
+<text x="240" y="28" font-size="11" fill="#64748b" text-anchor="middle">As size ↑, SA:Vol ratio ↓ — materials take longer to reach the centre</text>
+</svg>
+<div class="cap">SA:Vol = surface area ÷ volume. Small cube: 6 ÷ 1 = 6. Bigger cube: (6×4²)÷(4³) = 96÷64 = 1.5.</div>
+</div>
+<p style="font-size:14px">The <b>agar cube practical</b> from your booklet: cubes of agar soaked in acid lose their pink colour as acid diffuses in. The <b>small cubes clear fastest</b> because they have a higher SA:Vol. As cube size doubles, surface area quadruples (×2²) but volume goes up ×8 (×2³) — so the ratio shrinks.</p>
+<div class="warn">⚠️ <b>Exam link (2.51):</b> "Explain why simple unicellular organisms can rely on diffusion but humans can't." → Single cells have a <b>large SA:Vol</b>, so diffusion across the membrane is fast enough. Large organisms have a <b>small SA:Vol</b> → diffusion is too slow → they need <b>transport systems</b> (blood, lungs, heart).</div>
+</div><h2>💧 Lesson 4 — Osmosis</h2>
+<div class="card">
+<div class="fig">
+<svg viewBox="0 0 480 260" class="diagram" id="svg-osmosis" role="img" aria-label="Osmosis diagram through partially permeable membrane">
+<rect x="1" y="1" width="478" height="258" fill="#fff" stroke="#cbd5e1"/>
+<rect x="30" y="60" width="190" height="150" fill="#e0f2fe" stroke="#0369a1" stroke-width="3"/>
+<rect x="260" y="60" width="190" height="150" fill="#fef3c7" stroke="#b45309" stroke-width="3"/>
+<text x="125" y="45" font-size="12" fill="#075985" text-anchor="middle" font-weight="bold">DILUTE solution<br/>(more water)</text>
+<text x="355" y="45" font-size="12" fill="#92400e" text-anchor="middle" font-weight="bold">CONCENTRATED solution<br/>(less water)</text>
+<g fill="#0284c7">
+<circle cx="55" cy="85" r="7"/><circle cx="90" cy="95" r="7"/><circle cx="125" cy="80" r="7"/><circle cx="160" cy="92" r="7"/><circle cx="70" cy="130" r="7"/><circle cx="140" cy="135" r="7"/><circle cx="100" cy="170" r="7"/><circle cx="55" cy="175" r="7"/><circle cx="165" cy="165" r="7"/><circle cx="120" cy="110" r="7"/>
+</g>
+<g fill="#ea580c">
+<circle cx="285" cy="80" r="9"/><circle cx="330" cy="90" r="9"/><circle cx="375" cy="78" r="9"/><circle cx="290" cy="115" r="9"/><circle cx="340" cy="120" r="9"/><circle cx="385" cy="112" r="9"/><circle cx="300" cy="150" r="9"/><circle cx="355" cy="148" r="9"/><circle cx="320" cy="180" r="9"/><circle cx="370" cy="172" r="9"/><circle cx="285" cy="185" r="9"/>
+</g>
+<rect x="225" y="55" width="30" height="160" fill="#e2e8f0" stroke="#475569" stroke-width="3"/>
+<g stroke="#475569" stroke-width="3"><line x1="228" y1="70" x2="252" y2="70"/><line x1="228" y1="100" x2="252" y2="100"/><line x1="228" y1="130" x2="252" y2="130"/><line x1="228" y1="160" x2="252" y2="160"/><line x1="228" y1="190" x2="252" y2="190"/></g>
+<text x="240" y="45" font-size="10" fill="#475569" text-anchor="middle" font-weight="bold" transform="rotate(-90 240 45)" style="writing-mode:tb">partially permeable membrane</text>
+<g transform="translate(215,120)"><path d="M0 0 h20" stroke="#0ea5e9" stroke-width="3"/><polygon points="24,-6 34,0 24,6" fill="#0ea5e9"/></g>
+<text x="240" y="235" font-size="11" fill="#0ea5e9" text-anchor="middle" font-weight="bold">WATER diffuses through the membrane →</text>
+<text x="240" y="252" font-size="10" fill="#64748b" text-anchor="middle">solute molecules (orange) are too big to pass — only water moves</text>
+</svg>
+<div class="cap">Osmosis: water moves from dilute → concentrated solution through a <b>partially permeable</b> membrane. Orange = solute (too big to pass).</div>
+</div>
+<div class="ok">📌 <b>Definition (memorise):</b> Osmosis is the <b>net movement of water molecules from a dilute solution to a more concentrated solution through a partially permeable membrane</b>. It's diffusion of WATER, and it's passive (no energy).</div>
+<div class="warn">⚠️ <b>Direction of water:</b> water always moves to the side with <b>more solute / less water</b> — i.e. "from where there's lots of water to where there's less".</div>
+</div>
+
+<div class="card">
+<h3>🔴 What happens to an ANIMAL cell?</h3>
+<div class="fig">
+<svg viewBox="0 0 480 190" class="diagram" id="svg-osmani" role="img" aria-label="Animal cell in solutions">
+<rect x="1" y="1" width="478" height="188" fill="#fff" stroke="#cbd5e1"/>
+<text x="100" y="30" font-size="11" fill="#64748b" text-anchor="middle" font-weight="bold">isotonic (same)</text>
+<text x="240" y="30" font-size="11" fill="#64748b" text-anchor="middle" font-weight="bold">concentrated solution</text>
+<text x="380" y="30" font-size="11" fill="#64748b" text-anchor="middle" font-weight="bold">dilute solution / pure water</text>
+<ellipse cx="100" cy="100" rx="52" ry="44" fill="#ffb3b3" stroke="#b91c1c" stroke-width="3"/>
+<circle cx="100" cy="100" r="22" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+<ellipse cx="240" cy="100" rx="34" ry="28" fill="#ffb3b3" stroke="#b91c1c" stroke-width="3" stroke-dasharray="5 3"/>
+<circle cx="240" cy="100" r="14" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+<ellipse cx="380" cy="100" rx="64" ry="52" fill="#ffb3b3" stroke="#b91c1c" stroke-width="3" stroke-dasharray="5 3"/>
+<circle cx="380" cy="100" r="28" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+<text x="100" y="170" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">normal</text>
+<text x="240" y="170" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">water out → shrinks / crenates</text>
+<text x="380" y="170" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">water in → swells, can burst (lyse)</text>
+</svg>
+<div class="cap">Animal cells have NO cell wall — too much water in → they swell and can burst (lyse). Too little → they shrink.</div>
+</div>
+</div>
+
+<div class="card">
+<h3>🌱 What happens to a PLANT cell?</h3>
+<div class="fig">
+<svg viewBox="0 0 480 200" class="diagram" id="svg-osmplant" role="img" aria-label="Plant cell turgid flaccid plasmolysed">
+<rect x="1" y="1" width="478" height="198" fill="#fff" stroke="#cbd5e1"/>
+<text x="90" y="25" font-size="11" fill="#64748b" text-anchor="middle" font-weight="bold">dilute → TURGID</text>
+<text x="240" y="25" font-size="11" fill="#64748b" text-anchor="middle" font-weight="bold">isotonic → FLACCID</text>
+<text x="390" y="25" font-size="11" fill="#64748b" text-anchor="middle" font-weight="bold">concentrated → PLASMOLYSED</text>
+<!-- turgid -->
+<rect x="30" y="40" width="125" height="120" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+<rect x="42" y="52" width="101" height="96" fill="#f0fdf4"/>
+<ellipse cx="92" cy="100" rx="40" ry="34" fill="#bae6fd" stroke="#0284c7" stroke-width="2"/>
+<circle cx="92" cy="70" r="10" fill="#d8b4fe"/>
+<!-- flaccid -->
+<rect x="180" y="40" width="125" height="120" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+<rect x="206" y="58" width="73" height="84" fill="#f0fdf4"/>
+<ellipse cx="242" cy="100" rx="30" ry="26" fill="#bae6fd" stroke="#0284c7" stroke-width="2" stroke-dasharray="4 2"/>
+<circle cx="242" cy="78" r="8" fill="#d8b4fe"/>
+<!-- plasmolysed -->
+<rect x="330" y="40" width="125" height="120" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+<ellipse cx="392" cy="100" rx="42" ry="32" fill="#f0fdf4"/>
+<ellipse cx="372" cy="95" rx="24" ry="26" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+<circle cx="371" cy="88" r="8" fill="#d8b4fe"/>
+<text x="90" y="182" font-size="10" fill="#166534" text-anchor="middle" font-weight="bold">cell firm — turgor pressure</text>
+<text x="242" y="182" font-size="10" fill="#166534" text-anchor="middle" font-weight="bold">not firm, not wilted</text>
+<text x="392" y="182" font-size="10" fill="#991b1b" text-anchor="middle" font-weight="bold">membrane pulls away — wilts</text>
+</svg>
+<div class="cap">Plant cells are protected by the cell wall. Turgid = full of water, firm. Plasmolysed = water lost, membrane pulls away from wall.</div>
+</div>
+<ul style="padding-left:20px">
+<li><b>Turgid:</b> dilute solution → water enters, vacuole swells, presses against cell wall → <b>turgor pressure</b> keeps plant firm.</li>
+<li><b>Flaccid:</b> isotonic → water in = water out → no turgor pressure.</li>
+<li><b>Plasmolysis:</b> concentrated solution → water leaves, membrane + cytoplasm pull away from cell wall → plant <b>wilts</b>.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>🥔 Potato practical (Lesson 5) — the classic osmosis investigation</h3>
+<p style="font-size:14px">Potato cubes in different concentrations of sugar solution (0 to 1.0 mol dm⁻³).</p>
+<table>
+<tr><th>Concentration</th><th>What happens</th><th>Why</th></tr>
+<tr><td><b>0 mol dm⁻³ (pure water)</b></td><td>Mass <b>increases</b></td><td>Water enters cells by osmosis (cell sap more concentrated than outside)</td></tr>
+<tr><td><b>Low sugar</b></td><td>Mass increases a little</td><td>Water still enters — outside still more dilute than cell sap</td></tr>
+<tr><td><b>≈ isotonic</b></td><td>Mass <b>stays the same</b></td><td>No net movement — same water concentration (this is the concentration of the cell sap!)</td></tr>
+<tr><td><b>High sugar</b></td><td>Mass <b>decreases</b></td><td>Water leaves the cells by osmosis</td></tr>
+</table>
+<div class="tip">🎓 <b>Variable names (learn these!):</b> Independent = <b>sugar concentration</b>. Dependent = <b>change in mass</b>. Control variables = same potato size/mass, same temperature, same time, same solution volume. Use <b>% change in mass</b> (not raw change) so cubes with different start masses can be compared fairly.</div>
+<div class="ok">📈 <b>Reading the graph:</b> as concentration ↑, % change in mass ↓. Where the line crosses <b>0% change</b> = the isotonic concentration = concentration of the potato cell sap.</div>
+</div><h2>⚡ Lesson 6 — Active Transport</h2>
+<div class="card">
+<div class="fig">
+<svg viewBox="0 0 480 250" class="diagram" id="svg-active" role="img" aria-label="Active transport diagram">
+<rect x="1" y="1" width="478" height="248" fill="#fff" stroke="#cbd5e1"/>
+<!-- membrane -->
+<rect x="40" y="100" width="400" height="44" fill="#e2e8f0" stroke="#475569" stroke-width="3"/>
+<g stroke="#94a3b8" stroke-width="2">
+<line x1="60" y1="110" x2="120" y2="110"/><line x1="200" y1="100" x2="260" y2="100"/><line x1="330" y1="112" x2="380" y2="112"/><line x1="80" y1="134" x2="140" y2="134"/><line x1="280" y1="126" x2="340" y2="126"/>
+</g>
+<text x="240" y="94" font-size="10" fill="#475569" text-anchor="middle" font-weight="bold">cell membrane</text>
+<!-- low conc below -->
+<g fill="#0284c7">
+<circle cx="80" cy="215" r="8"/><circle cx="140" cy="210" r="8"/><circle cx="200" cy="220" r="8"/><circle cx="260" cy="212" r="8"/><circle cx="320" cy="218" r="8"/><circle cx="380" cy="210" r="8"/>
+</g>
+<text x="240" y="240" font-size="11" fill="#0c4a6e" text-anchor="middle" font-weight="bold">LOW concentration of ions (outside cell)</text>
+<!-- high conc above -->
+<g fill="#ea580c">
+<circle cx="80" cy="40" r="8"/><circle cx="140" cy="35" r="8"/><circle cx="200" cy="42" r="8"/><circle cx="260" cy="36" r="8"/><circle cx="320" cy="42" r="8"/><circle cx="380" cy="36" r="8"/>
+</g>
+<text x="240" y="62" font-size="11" fill="#7c2d12" text-anchor="middle" font-weight="bold">HIGH concentration of ions (inside cell)</text>
+<!-- carrier protein -->
+<path d="M120 100 q0 -18 26 -18 q26 0 26 18 v44 q0 18 -26 18 q-26 0 -26 -18 z" fill="#fbcfe8" stroke="#be185d" stroke-width="3"/>
+<path d="M210 100 q0 -18 26 -18 q26 0 26 18 v44 q0 18 -26 18 q-26 0 -26 -18 z" fill="#fbcfe8" stroke="#be185d" stroke-width="3"/>
+<text x="146" y="122" font-size="9" fill="#be185d" text-anchor="middle" font-weight="bold">carrier</text>
+<text x="146" y="134" font-size="9" fill="#be185d" text-anchor="middle" font-weight="bold">protein</text>
+<text x="236" y="122" font-size="9" fill="#be185d" text-anchor="middle" font-weight="bold">carrier</text>
+<text x="236" y="134" font-size="9" fill="#be185d" text-anchor="middle" font-weight="bold">protein</text>
+<!-- ion moving up -->
+<circle cx="240" cy="76" r="9" fill="#ea580c" stroke="#7c2d12" stroke-width="2"/>
+<g transform="translate(224,60)"><path d="M0 10 v-22" stroke="#059669" stroke-width="3"/><polygon points="-6,-36 0,-46 6,-36" fill="#059669"/></g>
+<text x="258" y="30" font-size="10" fill="#059669" text-anchor="middle" font-weight="bold">ion pumped UP (against gradient)</text>
+<!-- ATP -->
+<text x="284" y="128" font-size="10" fill="#be185d" font-weight="bold" font-style="italic">ATP energy</text>
+<line x1="278" y1="122" x2="262" y2="118" stroke="#be185d" stroke-width="1.5"/>
+</svg>
+<div class="cap">Active transport: carrier proteins use energy from ATP to pump ions/molecules <b>against</b> the concentration gradient (low → high).</div>
+</div>
+<div class="ok">📌 <b>Definition (memorise):</b> Active transport is the <b>movement of substances from a more dilute solution to a more concentrated solution (against the concentration gradient)</b>. It <b>requires energy from respiration</b> (ATP) and uses <b>carrier proteins</b> in the membrane.</div>
+<ul style="padding-left:20px">
+<li>⚡ Needs <b>energy (ATP)</b> from <b>aerobic respiration in mitochondria</b></li>
+<li>🔁 Goes <b>AGAINST</b> the gradient (low → high concentration)</li>
+<li>🧬 Uses <b>carrier proteins</b> — specific to each substance</li>
+<li>🥔 Example: <b>root hair cells</b> absorbing mineral ions (e.g. nitrate) from very dilute soil water</li>
+<li>🍞 Example: <b>small intestine epithelial cells</b> absorbing glucose and amino acids</li>
+</ul>
+<div class="tip">🎓 <b>Why lots of mitochondria?</b> Cells doing active transport need lots of energy → they contain many mitochondria. That's why the exam loves epithelial cells + root hair cells.</div>
+<div class="warn">⚠️ <b>Cyanide experiment (know this!):</b> cyanide stops respiration → no ATP → active transport stops. In the booklet's table, glucose and galactose absorption <b>dropped</b> with cyanide (they need active transport), but xylose and arabinose stayed the same (diffusion only, no energy needed).</div>
+</div>
+
+<div class="card">
+<h3>⚖️ The comparison table — diffusion vs osmosis vs active transport</h3>
+<table>
+<tr><th></th><th>💨 Diffusion</th><th>💧 Osmosis</th><th>⚡ Active transport</th></tr>
+<tr><td><b>What moves</b></td><td>Any particles (gas/liquid)</td><td>Water only</td><td>Ions / molecules (e.g. glucose, nitrates)</td></tr>
+<tr><td><b>Direction</b></td><td>High → low conc (down)</td><td>High water → low water (through membrane)</td><td>Low → high conc (<b>against</b>)</td></tr>
+<tr><td><b>Energy needed?</b></td><td>❌ No (passive)</td><td>❌ No (passive)</td><td>✅ Yes — ATP from respiration</td></tr>
+<tr><td><b>Membrane needed?</b></td><td>No (can be in air/liquid)</td><td>Yes — partially permeable</td><td>Yes — carrier proteins</td></tr>
+</table>
+<div class="tip">🎓 <b>Exam phrase:</b> diffusion and osmosis are <b>passive</b> (require no energy); active transport <b>requires energy</b> and goes <b>against</b> the gradient.</div>
+</div>
+</section><!-- ============ MICROBES ============ -->
+<section id="tab-microbes" class="tab">
+<h1>🦠 Lesson 7 — Pathogens &amp; Disease</h1>
+<div class="tip">🎓 A <b>pathogen</b> is a microorganism that causes infectious disease. Pathogens can be <b>fungi, bacteria, protoctists or viruses</b> (1.4).</div>
+
+<div class="card">
+<h3>What each type of pathogen does</h3>
+<table>
+<tr><th>Type</th><th>What it is</th><th>How it harms us</th><th>Example disease</th></tr>
+<tr><td><b>Bacteria</b></td><td>Single-celled prokaryotes</td><td>Reproduce fast in the body; release <b>toxins</b> that damage tissue</td><td>Cholera, pneumonia, food poisoning (<i>Salmonella</i>)</td></tr>
+<tr><td><b>Fungi</b></td><td>Eukaryotes with hyphae (or single-celled like yeast)</td><td>Grow on/in skin or plants; damage tissue</td><td>Ringworm</td></tr>
+<tr><td><b>Protoctists</b></td><td>Single-celled eukaryotes</td><td>Enter blood / cells; damage tissues</td><td>Malaria (<i>Plasmodium</i>)</td></tr>
+<tr><td><b>Viruses</b></td><td>Protein coat + DNA/RNA, no cells</td><td>Invade cells, reproduce inside them, destroy them</td><td>Flu, HIV/AIDS, Tobacco Mosaic Virus</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h3>Diseases table — cause, spread, symptoms</h3>
+<table>
+<tr><th>Disease</th><th>Pathogen type</th><th>How it's spread</th><th>Symptoms</th></tr>
+<tr><td><b>Flu (influenza)</b></td><td>Virus</td><td>Airborne droplets (coughing/sneezing)</td><td>Fever, aches, fatigue</td></tr>
+<tr><td><b>Pneumonia</b></td><td>Bacterium (<i>Pneumococcus</i>)</td><td>Airborne droplets</td><td>Inflamed lungs, difficulty breathing</td></tr>
+<tr><td><b>Ringworm</b></td><td>Fungus</td><td>Direct skin contact / contaminated surfaces</td><td>Itchy, circular skin rash</td></tr>
+<tr><td><b>Cholera</b></td><td>Bacterium</td><td>Contaminated water / food</td><td>Severe diarrhoea, dehydration</td></tr>
+<tr><td><b>Tobacco Mosaic Virus (TMV)</b></td><td>Virus</td><td>Contact between plants / insects</td><td>Discoloured (mosaic) leaves — chloroplasts destroyed → less photosynthesis</td></tr>
+<tr><td><b>Malaria</b></td><td>Protoctist (<i>Plasmodium</i>)</td><td>Mosquito bites (vector = mosquito)</td><td>Fever, chills, weakness</td></tr>
+<tr><td><b>HIV / AIDS</b></td><td>Virus</td><td>Body fluids (blood, sexual contact)</td><td>Destroys immune cells → AIDS</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h3>💡 Key facts to remember</h3>
+<ul style="padding-left:20px">
+<li><b>TMV</b> prevents chloroplast formation → leaves lose colour → plant can't photosynthesise as well → less growth.</li>
+<li><b>Malaria's vector</b> is the mosquito — the pathogen <i>Plasmodium</i> is a protoctist (single-celled eukaryote!).</li>
+<li><b>Bacteria harm via toxins.</b> <i>Salmonella</i> = food poisoning; <i>Lactobacillus</i> = yoghurt (useful bacterium).</li>
+<li><b>Viruses are not cells</b> — they hijack host cells to reproduce.</li>
+<li>The disease is <b>not</b> the pathogen — the pathogen <i>causes</i> the disease.</li>
+</ul>
+</div>
+</section><!-- ============ QUIZ ZONE ============ -->
+<section id="tab-quiz" class="tab">
+<h1>📝 Quiz Zone</h1>
+<p style="color:var(--mut)">Three ways to test yourself. Best scores are saved on this computer.</p>
+
+<div class="card">
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+<button class="btn" onclick="showGame('mcq')">🎯 MCQ Quiz</button>
+<button class="btn ghost" onclick="showGame('match')">🧩 Matching game</button>
+<button class="btn ghost" onclick="showGame('label')">🏷️ Label the cell</button>
+</div>
+
+<!-- MCQ quiz -->
+<div id="game-mcq">
+<div id="mcq-settings">
+<p style="margin-bottom:8px"><b>Choose how many questions:</b></p>
+<button class="btn" onclick="startMCQ(10)">10 questions</button>
+<button class="btn" onclick="startMCQ(20)">20 questions</button>
+<button class="btn ghost" onclick="startMCQ(1000)">All questions (shuffled)</button>
+</div>
+<div id="mcq-run" style="display:none">
+<div id="mcq-top"><b id="mcq-qnum"></b><span id="mcq-score" style="float:right;color:var(--acc);font-weight:700"></span></div>
+<div class="progress"><div id="mcq-bar"></div></div>
+<h3 id="mcq-q"></h3>
+<div id="mcq-opts" style="display:grid;gap:8px;margin:10px 0"></div>
+<div id="mcq-expl" style="display:none"></div>
+<button class="btn" id="mcq-next" onclick="mcqNext()" style="display:none">Next ➡️</button>
+</div>
+<div id="mcq-end" style="display:none;text-align:center;padding:20px">
+<h2 id="mcq-final-score"></h2>
+<p id="mcq-final-msg" style="color:var(--mut)"></p>
+<p id="mcq-grade" style="font-size:1.6rem;font-weight:800;color:var(--acc)"></p>
+<button class="btn" onclick="startMCQ(lastMCQLen)">Try again</button>
+<button class="btn ghost" onclick="showGame('mcq')">Change length</button>
+</div>
+</div>
+
+<!-- Matching game -->
+<div id="game-match" style="display:none">
+<p style="color:var(--mut)">Match each organelle/structure to its function. Click one from each column. Found <b id="match-found">0</b>/<b id="match-total">10</b></p>
+<div id="match-board" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px"></div>
+<p id="match-result" style="display:none;text-align:center;font-weight:800;color:var(--acc);font-size:1.2rem;margin-top:12px"></p>
+<button class="btn" id="match-retry" style="display:none" onclick="initMatch()">Shuffle &amp; retry</button>
+</div>
+
+<!-- Label the cell -->
+<div id="game-label" style="display:none">
+<p style="color:var(--mut)">Click a numbered dot on the plant cell, then pick the matching structure.</p>
+<div id="label-q" style="font-weight:700;margin:8px 0"></div>
+<div id="label-opts" style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px"></div>
+<div class="fig" id="label-fig"></div>
+<div id="label-score" style="color:var(--acc);font-weight:700"></div>
+<div id="label-end" style="display:none;text-align:center;margin:16px 0">
+<h3 id="label-final"></h3>
+<button class="btn" onclick="initLabel()">Play again</button>
+</div>
+</div>
+</div>
+
+<div class="card">
+<h3>📋 Exam technique — command words</h3>
+<table>
+<tr><th>Word</th><th>What you must do</th></tr>
+<tr><td><b>Describe</b></td><td>Say what something is or what happens — no reason needed</td></tr>
+<tr><td><b>Explain</b></td><td>Give a reason / mechanism ("because…")</td></tr>
+<tr><td><b>Suggest</b></td><td>Use your knowledge to give a sensible answer (marks for any valid idea)</td></tr>
+<tr><td><b>State / Name</b></td><td>Short answer, one word or phrase</td></tr>
+<tr><td><b>Compare</b></td><td>Mention BOTH things + a similarity OR difference</td></tr>
+</table>
+<div class="tip">🎓 <b>Definition questions = free marks.</b> Learn the three definitions cold: diffusion, osmosis, active transport. Always include "down/against the concentration gradient" and "partially permeable membrane" / "energy from respiration" — those phrases ARE the marks.</div>
+</div>
+</section><!-- ============ GLOSSARY ============ -->
+<section id="tab-glossary" class="tab">
+<h1>📖 Glossary of key words</h1>
+<p style="color:var(--mut)">Search the terms — type to filter.</p>
+<input type="text" id="gloss-search" placeholder="Type to search… (e.g. osmosis)" oninput="renderGloss()">
+<div id="gloss-list" style="margin-top:12px"></div>
+</section>
+
+</div><!-- /container --><script>
+/* ============ DATA ============ */
+const BANK = [
+{t:"Living",q:'Which of these is NOT one of the 8 characteristics of living organisms (MRS C GREN)?',o:["Movement","Digestion","Excretion","Sensitivity"],a:1,e:'MRS C GREN = Movement, Respiration, Sensitivity, Control, Growth, Reproduction, Excretion, Nutrition. "Digestion" is not a characteristic — simple organisms absorb food directly.'},
+{t:"Living",q:'A multicellular organism whose cells have chloroplasts, a cellulose cell wall, and store starch belongs to which kingdom?',o:["Animal","Plant","Fungi","Protoctist"],a:1,e:'Plants: multicellular, chloroplasts, cellulose cell walls, store starch/sucrose.'},
+{t:"Living",q:'Which kingdom is single-celled and includes Amoeba (animal-like), Chlorella (plant-like) and Plasmodium (causes malaria)?',o:["Animal","Plant","Protoctist","Bacteria"],a:2,e:'Protoctists are microscopic single-celled eukaryotes.'},
+{t:"Living",q:'Yeast and Mucor are fungi. Which statement about them is CORRECT?',o:["Prokaryotes with cellulose walls","Eukaryotes with chitin cell walls","Eukaryotes with cellulose walls","Prokaryotes with chitin walls"],a:1,e:'Fungi are eukaryotes (have a nucleus) with cell walls made of chitin. They feed by saprotrophic nutrition.'},
+{t:"Living",q:'How many of the 8 characteristics of life do bacteria exhibit?',o:["5","6","7","8"],a:3,e:'Bacteria are living organisms, so they show ALL 8 characteristics.'},
+{t:"Living",q:'Viruses are NOT living. Which statement about viruses is correct?',o:["They are made of cells","They can reproduce outside a host","They have a protein coat + DNA or RNA","They respire to release energy"],a:2,e:'Viruses have a protein coat around one type of nucleic acid (DNA or RNA). No cells, no respiration; reproduce only inside living cells.'},
+{t:"Living",q:'Which group can exist as BOTH single-celled and multicellular organisms?',o:["Animals","Bacteria","Fungi","Viruses"],a:2,e:'Most fungi are multicellular (hyphae/mycelium) but yeast is single-celled. Animals/plants are only multicellular; bacteria only single-celled.'},
+{t:"Living",q:'Which carbohydrate is stored by animals (and fungi)?',o:["Starch","Sucrose","Cellulose","Glycogen"],a:3,e:'Animals and fungi store glycogen; plants store starch or sucrose.'},
+{t:"Living",q:'Jellyfish take oxygen into their cells directly from the water around them. This shows which life characteristic?',o:["Nutrition","Respiration","Movement","Excretion"],a:1,e:'Taking in oxygen for respiration. Respiration = releasing energy from food.'},
+{t:"Living",q:'Jellyfish release sperm or eggs into the water. This shows which life characteristic?',o:["Reproduction","Growth","Excretion","Sensitivity"],a:0,e:'Reproduction = making more of the same kind of organism.'},
+{t:"Living",q:'A single-celled bacterium has a cell wall, cell membrane, cytoplasm and plasmids but LACKS a nucleus. It is a…',o:["Eukaryote","Prokaryote","Virus","Protoctist"],a:1,e:'Prokaryotes have NO nucleus — DNA is free in the cytoplasm as a circular chromosome. Bacteria are prokaryotes.'},
+{t:"Living",q:'Plasmodium causes malaria. Which kingdom does it belong to?',o:["Fungi","Bacteria","Protoctist","Virus"],a:2,e:'Plasmodium is a single-celled protoctist (a pathogenic one).'},
+
+{t:"Cell",q:'Which structure controls what enters and leaves the cell?',o:["Nucleus","Cell wall","Cell membrane","Cytoplasm"],a:2,e:'The cell (plasma) membrane is partially permeable and controls movement of substances in/out.'},
+{t:"Cell",q:'The jelly-like substance where most chemical reactions happen is the…',o:["Nucleus","Cytoplasm","Vacuole","Ribosome"],a:1,e:'Cytoplasm — the jelly-like material holding sub-cellular structures, site of many reactions.'},
+{t:"Cell",q:'Which organelle carries out aerobic respiration (releases energy from glucose)?',o:["Ribosome","Chloroplast","Mitochondrion","Nucleus"],a:2,e:'Mitochondria are where aerobic respiration happens. Cells needing lots of energy have many.'},
+{t:"Cell",q:'Which organelle carries out protein synthesis?',o:["Mitochondrion","Ribosome","Vacuole","Cell wall"],a:1,e:'Ribosomes build proteins using the genetic code from DNA.'},
+{t:"Cell",q:'Which structures are found ONLY in plant cells (not animal cells)?',o:["Nucleus, mitochondria, ribosomes","Cell wall, chloroplasts, large vacuole","Cell membrane, cytoplasm","Mitochondria, ribosomes, vacuole"],a:1,e:'Plant-only: cellulose cell wall, chloroplasts, large permanent vacuole. Nucleus, membrane, cytoplasm, mitochondria, ribosomes are in BOTH.'},
+{t:"Cell",q:'A leaf cell is specialised to photosynthesise because it has many…',o:["Mitochondria","Chloroplasts","Ribosomes","Vacuoles"],a:1,e:'Many chloroplasts = can absorb lots of light for photosynthesis.'},
+{t:"Cell",q:'What is the cell wall of a PLANT cell made of?',o:["Chitin","Starch","Cellulose","Protein"],a:2,e:'Plant cell walls = cellulose. Fungal cell walls = chitin.'},
+{t:"Cell",q:'The large permanent vacuole in a plant cell is filled with…',o:["Cell sap","Chlorophyll","Cytoplasm","DNA"],a:0,e:'The vacuole is filled with cell sap, keeping the cell rigid (support).'},
+{t:"Cell",q:'Which is the CORRECT order of size, smallest to largest?',o:["Organelle → cell → tissue → organ → system","Cell → organelle → organ → tissue → system","Tissue → cell → organ → system → organelle","Organ → system → tissue → cell → organelle"],a:0,e:'Levels of organisation: organelles → cells → tissues → organs → systems.'},
+{t:"Cell",q:'Which row correctly describes a BACTERIAL cell?',o:["Nucleus present, mitochondria present","Nucleus absent, no mitochondria, circular DNA in cytoplasm","Nucleus absent, mitochondria present, DNA in nucleus","Nucleus present, no mitochondria, DNA in nucleus"],a:1,e:'Bacteria are prokaryotes — no nucleus, no mitochondria, circular chromosome free in cytoplasm + plasmids.'},
+
+{t:"Move",q:'What is diffusion?',o:["Movement of water through a membrane","Net movement of particles from high to low concentration","Movement against the gradient using energy","Movement of particles using carrier proteins"],a:1,e:'Diffusion = net movement of particles from high → low concentration (down the concentration gradient). Passive.'},
+{t:"Move",q:'Diffusion of a substance INTO a cell is fastest when…',o:["Surface area high + concentration difference high","Surface area high + difference low","Surface area low + difference high","Surface area low + difference low"],a:0,e:'Higher SA = more space to diffuse across; steeper gradient = faster. Both high = fastest.'},
+{t:"Move",q:'What is osmosis?',o:["Movement of water from dilute to concentrated solution through a partially permeable membrane","Movement of any substance down a concentration gradient","Movement of ions using ATP","Movement of solute from high to low concentration"],a:0,e:'Osmosis = diffusion of WATER through a partially permeable membrane, from dilute (more water) to concentrated (less water).'},
+{t:"Move",q:'A plant cell placed in a concentrated solution becomes flaccid and the membrane pulls away from the wall. This is called…',o:["Turgor pressure","Plasmolysis","Lysis","Osmosis"],a:1,e:'Plasmolysis — water leaves, membrane/cytoplasm pull away from cell wall → plant wilts.'},
+{t:"Move",q:'A plant cell in a dilute solution becomes TURGID because…',o:["Water leaves the cell","Water enters and presses against the cell wall (turgor pressure)","The cell wall dissolves","The vacuole shrinks"],a:1,e:'In dilute solution water enters by osmosis, vacuole swells, presses on cell wall → turgor pressure keeps plant firm.'},
+{t:"Move",q:'An animal cell placed in pure water will likely…',o:["Shrink","Burst (lyse)","Stay the same","Become plasmolysed"],a:1,e:'Animal cells have no cell wall — water floods in by osmosis and they can burst (lyse).'},
+{t:"Move",q:'Which process REQUIRES energy (ATP) from respiration?',o:["Diffusion","Osmosis","Active transport","All of these"],a:2,e:'Active transport needs ATP because it moves substances AGAINST the concentration gradient. Diffusion and osmosis are passive.'},
+{t:"Move",q:'Active transport moves substances…',o:["Down the concentration gradient","Against the concentration gradient (low → high)","Only water","Randomly"],a:1,e:'Active transport = low → high concentration (against the gradient), using energy + carrier proteins.'},
+{t:"Move",q:'Why do root hair cells and small intestine epithelial cells have lots of mitochondria?',o:["To photosynthesise","To release energy for active transport","To make the cell wall","To store starch"],a:1,e:'Active transport needs lots of energy from respiration → cells doing it are packed with mitochondria.'},
+{t:"Move",q:'Cyanide stops respiration. In the booklet experiment, glucose absorption dropped but xylose stayed the same. This shows…',o:["Glucose is absorbed by active transport (needs energy)","Glucose is absorbed by diffusion","Xylose needs energy","Cyanide only affects water"],a:0,e:'When respiration stops (cyanide), no ATP → active transport stops, so glucose (which needs active transport) is not absorbed. Xylose used diffusion only, so no change.'},
+{t:"Move",q:'A 2cm × 2cm × 2cm cube has a surface area : volume ratio of…',o:["6:1","3:1","2:1","1:1"],a:1,e:'SA = 6×(2×2) = 24 cm². Vol = 2×2×2 = 8 cm³. Ratio = 24:8 = 3:1.'},
+{t:"Move",q:'Why can a single-celled Amoeba rely on diffusion for gas exchange but a human cannot?',o:["Amoeba has a small SA:Vol ratio","Amoeba has a large SA:Vol ratio, so diffusion across its surface is fast enough","Amoeba has a transport system","Humans do not respire"],a:1,e:'Single cells have a large surface area to volume ratio → diffusion across the membrane meets their needs. Large organisms have small SA:Vol → need transport systems.'},
+{t:"Move",q:'Which factor would SPEED UP diffusion into a cell?',o:["Smaller surface area","Longer distance","Higher temperature","Shallower concentration gradient"],a:2,e:'Higher temperature = particles move faster. Bigger SA, shorter distance and steeper gradient also speed it up.'},
+
+{t:"Microbe",q:'A pathogen is…',o:["A type of white blood cell","A microorganism that causes infectious disease","A useful bacterium","A virus protein"],a:1,e:'Pathogen = a microorganism that causes infectious disease. Can be bacteria, fungi, protoctists or viruses.'},
+{t:"Microbe",q:'Which pair correctly matches a disease with its pathogen type?',o:["Malaria → virus","Malaria → protoctist (Plasmodium)","Cholera → fungus","Flu → bacterium"],a:1,e:'Malaria is caused by Plasmodium, a protoctist. Flu = virus, cholera = bacterium, ringworm = fungus.'},
+{t:"Microbe",q:'Which is caused by a VIRUS?',o:["Ringworm","Cholera","Tobacco Mosaic Virus (TMV)","Malaria"],a:2,e:'TMV is a virus. Ringworm = fungus, cholera = bacterium, malaria = protoctist.'},
+{t:"Microbe",q:'Pneumonia is caused by Pneumococcus. What type of pathogen is it?',o:["Virus","Fungus","Protoctist","Bacterium"],a:3,e:'Pneumococcus is a spherical bacterium that causes pneumonia.'},
+{t:"Microbe",q:'Tobacco Mosaic Virus (TMV) damages tobacco plants by…',o:["Eating the roots","Preventing chloroplast formation (discolours leaves)","Blocking the stomata","Producing toxins in the soil"],a:1,e:'TMV prevents chloroplast formation → leaves lose colour (mosaic pattern) → less photosynthesis.'},
+{t:"Microbe",q:'Which structure moves a bacterium?',o:["Cilia","Flagellum","Pseudopod","Cell wall"],a:1,e:'A flagellum is a tail-like structure enabling bacteria (and sperm) to move.'},
+{t:"Microbe",q:'Bacteria can harm us by…',o:["Producing chlorophyll","Releasing toxins that damage tissue","Making ATP","Building cell walls"],a:1,e:'Some bacteria release toxins (poisons) that damage tissues and make us feel ill.'}
+];
+
+const MATCH = [
+{name:"Nucleus",fn:"Controls cell activities; contains DNA"},
+{name:"Cytoplasm",fn:"Jelly-like; site of most chemical reactions"},
+{name:"Cell membrane",fn:"Controls what enters/leaves the cell"},
+{name:"Cell wall",fn:"Provides strength and support"},
+{name:"Mitochondria",fn:"Where aerobic respiration happens"},
+{name:"Chloroplast",fn:"Where photosynthesis happens"},
+{name:"Ribosomes",fn:"Protein synthesis"},
+{name:"Vacuole",fn:"Stores cell sap; supports the plant"},
+{name:"Flagellum",fn:"Moves the cell (tail-like)"},
+{name:"Nucleolus",fn:"Inside nucleus; makes ribosomes"}
+];
+
+const DOTMAP = {0:"Cell wall",1:"Nucleus",2:"Vacuole",3:"Cytoplasm",4:"Cell wall",5:"Cytoplasm",6:"Cell wall"};
+const LABELTARGETS = ["Cell wall","Cytoplasm","Nucleus","Vacuole","Cell wall","Cytoplasm","Cell wall"];
+
+const CHECKLIST = [
+"1.1 List the 8 characteristics of living organisms (MRS C GREN)",
+"1.2 Describe the features of plants, animals, fungi, protoctists",
+"1.3 Describe the features of bacteria (prokaryotes)",
+"1.4 Know what a pathogen is (fungi, bacteria, protoctists, viruses)",
+"2.1 Level of organisation: organelles → cells → tissues → organs → systems",
+"2.2/2.3 Name cell structures + their functions",
+"2.4 Differences between plant and animal cells",
+"2.15 Diffusion, osmosis and active transport",
+"2.16 Factors affecting rate (SA:Vol, distance, temperature, gradient)",
+"2.17 Practical: investigate diffusion and osmosis",
+"2.51 Why unicellular organisms rely on diffusion",
+];
+
+const GLOSS = [
+["Active transport","Movement from a more dilute to a more concentrated solution (against gradient), requiring energy from respiration."],
+["ATP","Adenosine triphosphate — the energy-carrying molecule in cells; energy released when the end phosphate is removed."],
+["Bacteria","Microscopic single-celled organisms (prokaryotes); some release toxins; lack a nucleus."],
+["Cell","The basic building block of all living organisms."],
+["Cell membrane","Partially permeable membrane surrounding cytoplasm; controls movement of substances in/out."],
+["Cell wall","Rigid structure strengthening the cell (cellulose in plants, chitin in fungi)."],
+["Cellulose","Main structural component of plant cell walls."],
+["Chlorophyll","Green pigment in chloroplasts that absorbs light for photosynthesis."],
+["Chloroplast","Organelle containing chlorophyll; site of photosynthesis."],
+["Concentration gradient","The difference in concentration between two solutions on either side of a membrane."],
+["Cytoplasm","Jelly-like substance where sub-cellular structures are found and most reactions occur."],
+["Diffusion","Net movement of particles from higher to lower concentration (down the gradient); passive."],
+["Eukaryotic cell","A cell that has a nucleus (plants, animals, fungi, protoctists)."],
+["Flagellum","Tail-like structure enabling bacteria and sperm to move."],
+["Fungi","Eukaryotes with chitin walls; hyphae form a mycelium; saprotrophic nutrition."],
+["Mitochondria","Structures in the cytoplasm where aerobic respiration takes place."],
+["Nucleus","Organelle containing genetic material; controls cell activities."],
+["Organ","A group of tissues working together to perform a specific function."],
+["Organ system","A group of organs working together to perform a function."],
+["Organelle","A structure found within a cell (sub-cellular structure)."],
+["Organism","A single living thing."],
+["Osmosis","Net movement of water from a dilute to a concentrated solution through a partially permeable membrane."],
+["Pathogen","A microorganism that causes infectious disease."],
+["Plasmolysis","When a plant cell loses water and the membrane/cytoplasm pull away from the cell wall."],
+["Prokaryotic cell","A simple cell with no nucleus; DNA is free in the cytoplasm."],
+["Protoctist","A eukaryotic, usually single-celled organism (e.g. Amoeba, Chlorella, Plasmodium)."],
+["Ribosome","Sub-cellular structure carrying out protein synthesis."],
+["Surface area to volume ratio","The surface area of an object compared with its volume; larger in small objects."],
+["Tissue","A group of cells with similar structure and function working together."],
+["Turgid","A plant cell that is firm because water has entered and presses on the cell wall."],
+["Vacuole","Organelle filled with cell sap; keeps the plant cell rigid."],
+["Virus","Ultramicroscopic, non-cellular, infectious particle; protein coat + DNA/RNA; reproduces only in living cells."]
+];/* ============ ENGINE ============ */
+const $=id=>document.getElementById(id);
+function switchTab(name){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  $('tab-'+name).classList.add('active');
+  document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.textContent.trim().split(' ')[0].includes(name)||b.textContent.includes({home:'Home',life:'Living',cells:'Cells',move:'Transport',microbes:'Microbes',quiz:'Quiz',glossary:'Glossary'}[name])));
+}
+function showGame(name){
+  ['mcq','match','label'].forEach(g=>$('game-'+g).style.display = g===name?'block':'none');
+  document.querySelectorAll('#tab-quiz .card:first-child button').forEach(()=>{});
+}
+showGame('mcq');
+
+/* ---- checklist ---- */
+function loadChecks(){try{return JSON.parse(localStorage.getItem('cm_checks')||'{}')}catch(e){return{}}}
+const checks=loadChecks();
+function renderChecklist(){
+  const box=$('checklist'); box.innerHTML='';
+  CHECKLIST.forEach((c,i)=>{
+    const d=document.createElement('div');
+    d.style.cssText='padding:6px 8px;border-bottom:1px solid var(--line);cursor:pointer;font-size:14px;display:flex;gap:10px;align-items:center';
+    d.innerHTML='<span style="font-size:16px">'+(checks[i]?'☑':'☐')+'</span><span'+(checks[i]?' style="text-decoration:line-through;color:var(--mut)"':'')+'>'+c+'</span>';
+    d.onclick=()=>{checks[i]=!checks[i];localStorage.setItem('cm_checks',JSON.stringify(checks));renderChecklist();};
+    box.appendChild(d);
+  });
+  const done=CHECKLIST.reduce((n,c,i)=>n+(checks[i]?1:0),0);
+  $('check-progress').textContent=done+' / '+CHECKLIST.length+' done';
+  $('check-bar').style.width=(CHECKLIST.length?(done/CHECKLIST.length*100):0)+'%';
+}
+function clearChecks(){CHECKLIST.forEach((_,i)=>{checks[i]=false});localStorage.setItem('cm_checks',JSON.stringify(checks));renderChecklist();}
+function checkAll(){CHECKLIST.forEach((_,i)=>{checks[i]=true});localStorage.setItem('cm_checks',JSON.stringify(checks));renderChecklist();}
+
+/* ---- glossary ---- */
+function renderGloss(){
+  const q=($('gloss-search').value||'').toLowerCase();
+  const list=$('gloss-list'); list.innerHTML='';
+  GLOSS.filter(([t,d])=>!q||t.toLowerCase().includes(q)||d.toLowerCase().includes(q)).forEach(([t,d])=>{
+    const row=document.createElement('div');
+    row.className='card'; row.style.cssText='padding:10px 14px;margin:6px 0';
+    row.innerHTML='<div class="term"><b>'+t+'</b><span style="color:var(--txt)">'+d+'</span></div>';
+    list.appendChild(row);
+  });
+  if(!list.children.length) list.innerHTML='<p class="warn">No matches — try a different word.</p>';
+}
+
+/* ---- MCQ quiz ---- */
+let mcqQ=[],mcqIdx=0,mcqScore=0,lastMCQLen=10;
+function startMCQ(n){
+  lastMCQLen=n;
+  mcqQ=BANK.slice().sort(()=>Math.random()-0.5).slice(0,n);
+  mcqIdx=0;mcqScore=0;
+  $('mcq-settings').style.display='none';$('mcq-end').style.display='none';$('mcq-run').style.display='block';
+  showMCQQ();
+}
+function showMCQQ(){
+  const q=mcqQ[mcqIdx];
+  $('mcq-qnum').textContent='Question '+(mcqIdx+1)+' of '+mcqQ.length;
+  $('mcq-score').textContent='Score: '+mcqScore;
+  $('mcq-bar').style.width=(mcqIdx/mcqQ.length*100)+'%';
+  $('mcq-q').textContent=q.q;
+  $('mcq-q').appendChild(Object.assign(document.createElement('span'),{className:'tag',textContent:q.t}));
+  const op=$('mcq-opts');op.innerHTML='';
+  q.o.forEach((opt,i)=>{
+    const b=document.createElement('button');
+    b.className='btn ghost';b.style.cssText='text-align:left;white-space:normal;display:block;width:100%;height:auto';
+    b.textContent=String.fromCharCode(65+i)+'. '+opt;
+    b.onclick=()=>ansMCQ(i,b);
+    op.appendChild(b);
+  });
+  $('mcq-expl').style.display='none';$('mcq-next').style.display='none';
+}
+function ansMCQ(pick,btn){
+  const q=mcqQ[mcqIdx];
+  [...$('mcq-opts').children].forEach(b=>b.disabled=true);
+  if(pick===q.a){mcqScore++;btn.style.cssText+=';background:var(--ok);color:#052e16;border-color:var(--ok)';}
+  else{
+    btn.style.cssText+=';background:var(--bad);color:#450a0a;border-color:var(--bad)';
+    [...$('mcq-opts').children][q.a].style.cssText+=';background:var(--ok);color:#052e16;border-color:var(--ok)';
+  }
+  const ex=$('mcq-expl');ex.style.display='block';
+  ex.innerHTML=(pick===q.a?'✅ <b>Correct!</b> ':'❌ <b>Not quite.</b> ')+q.e;
+  $('mcq-score').textContent='Score: '+mcqScore;
+  $('mcq-next').style.display='inline-block';
+}
+function mcqNext(){
+  mcqIdx++;
+  if(mcqIdx>=mcqQ.length){endMCQ();return;}
+  showMCQQ();
+}
+function endMCQ(){
+  $('mcq-run').style.display='none';$('mcq-end').style.display='block';
+  const pct=Math.round(mcqScore/mcqQ.length*100);
+  $('mcq-final-score').textContent='You got '+mcqScore+' / '+mcqQ.length+' ('+pct+'%)';
+  $('mcq-grade').textContent=pct>=80?'A* 🏆':pct>=68?'A 🎉':pct>=56?'B 👍':pct>=44?'C 👌':'Keep revising 💪';
+  $('mcq-final-msg').textContent=pct>=80?'Excellent!'+(pct===100?' A perfect score!':''):'Review the explanations and try again.';
+  saveStat('mcq',pct);
+}
+
+/* ---- matching game ---- */
+let matchL=[],matchR=[],matchPick=null,matchFound=0;
+function initMatch(){
+  matchPick=null;matchFound=0;
+  matchL=MATCH.map((m,i)=>({id:i,name:m.name})).sort(()=>Math.random()-0.5);
+  matchR=MATCH.map((m,i)=>({id:i,fn:m.fn})).sort(()=>Math.random()-0.5);
+  $('match-found').textContent=0;$('match-total').textContent=MATCH.length;
+  $('match-result').style.display='none';$('match-retry').style.display='none';
+  drawMatch();
+}
+function drawMatch(){
+  const b=$('match-board');b.innerHTML='';
+  const col=(arr,side)=>{
+    const w=document.createElement('div');
+    arr.forEach(it=>{
+      const d=document.createElement('div');
+      d.className='card';d.dataset.id=it.id;d.dataset.side=side;
+      d.style.cssText='padding:10px;margin:4px;cursor:pointer;text-align:left;font-size:14px'+(it.hit?';opacity:.35;pointer-events:none':'');
+      d.textContent=(side==='l'?it.name:it.fn);
+      d.onclick=()=>pickMatch(side,it.id,d);
+      w.appendChild(d);
+    });
+    return w;
+  };
+  b.appendChild(col(matchL,'l'));b.appendChild(col(matchR,'r'));
+}
+function pickMatch(side,id,el){
+  if(el.style.pointerEvents==='none')return;
+  if(matchPick&&matchPick.el!==el)matchPick.el.style.borderColor='';
+  if(side==='r'&&matchPick&&matchPick.side==='l'&&matchPick.id===id){
+    confirmMatch(matchPick.el,el);
+    return;
+  }
+  matchPick={side,id,el};
+  el.style.borderColor='var(--acc)';
+}
+function confirmMatch(lEl,rEl){
+  if(+lEl.dataset.id!==+rEl.dataset.id)return;
+  lEl.style.cssText+=';border-color:var(--ok);background:rgba(74,222,128,.15);pointer-events:none;opacity:.6';
+  rEl.style.cssText+=rEl.style.cssText+';border-color:var(--ok);background:rgba(74,222,128,.15);pointer-events:none;opacity:.6';
+  matchFound++;$('match-found').textContent=matchFound;
+  matchPick=null;
+  if(matchFound>=MATCH.length){
+    $('match-result').style.display='block';$('match-result').textContent='🎉 All matched!';
+    $('match-retry').style.display='inline-block';
+    saveStat('match',100);
+  }
+}
+initMatch();
+
+/* ---- label the cell ---- */
+let labelQ=[],labelIdx=0,labelScore=0,labelUsed={};
+function labelPlantSVG(){
+  // plant cell with clickable numbered hotspots (drawn structures only)
+  let s='<svg viewBox="0 0 480 320" style="max-width:100%"><rect x="1" y="1" width="478" height="318" fill="#f0fdf4" stroke="#cbd5e1"/>';
+  s+='<rect x="14" y="14" width="452" height="292" fill="#dcfce7" stroke="#16a34a" stroke-width="5"/>';
+  s+='<ellipse cx="240" cy="176" rx="100" ry="82" fill="#bae6fd" stroke="#0284c7" stroke-width="3"/>';
+  s+='<circle cx="240" cy="90" r="26" fill="#d8b4fe" stroke="#7e22ce" stroke-width="2.5"/>';
+  const spots={0:[240,22],1:[240,90],2:[240,176],3:[144,128],4:[30,160],5:[336,192],6:[240,300]};
+  Object.keys(spots).forEach((k,i)=>{
+    const x=spots[k][0],y=spots[k][1];
+    s+='<circle cx="'+x+'" cy="'+y+'" r="13" fill="'+(labelUsed[k]?'#22c55e':'#facc15')+'" stroke="#a16207" stroke-width="2"/>';
+    s+='<text x="'+x+'" y="'+y+'" dy="5" font-size="13" fill="#713f12" text-anchor="middle" font-weight="bold">'+(+k+1)+'</text>';
+  });
+  s+='</svg>';
+  return s;
+}
+function startLabel(){
+  labelQ=LABELTARGETS.slice().sort(()=>Math.random()-0.5);
+  labelIdx=0;labelScore=0;labelUsed={};
+  $('label-end').style.display='none';
+  labelFig();
+}
+function labelFig(){
+  $('label-fig').innerHTML=labelPlantSVG();
+  $('label-fig').querySelectorAll('circle').forEach((c,i)=>{c.style.cursor='pointer';c.style.pointerEvents='auto';c.onclick=()=>clickDot(i);});
+  const t=labelQ[labelIdx];
+  $('label-q').textContent='🎯 Click the numbered dot pointing at the '+(t||'?')+'  —  round '+(labelIdx+1)+' of '+labelQ.length;
+  $('label-opts').innerHTML=''; // no option buttons needed
+  $('label-score').textContent='Score: '+labelScore;
+}
+function clickDot(i){
+  const t=labelQ[labelIdx];
+  const ok=DOTMAP[i]===t;
+  if(ok){labelScore++;labelUsed[i]=true;$('label-fig').innerHTML=labelPlantSVG();$('label-fig').querySelectorAll('circle').forEach((c,j)=>{c.style.cursor='pointer';c.onclick=()=>clickDot(j);});}
+  else{
+    // flash the correct dot
+    const wrongDots=Object.keys(DOTMAP).filter(k=>!labelUsed[k]);
+    const correctDot=wrongDots.find(k=>DOTMAP[k]===t);
+    const svg=$('label-fig').querySelector('svg');
+    const circles=svg?svg.querySelectorAll('circle'):[];
+    if(svg&&correctDot!==undefined){
+      const c=circles[+correctDot];
+      if(c){const old=c.getAttribute('fill');c.setAttribute('fill','#f87171');setTimeout(()=>c.setAttribute('fill',old),700);}
+    }
+  }
+  $('label-score').textContent=(ok?'✅ ':'')+'Score: '+labelScore;
+  setTimeout(()=>{labelIdx++;if(labelIdx>=labelQ.length){endLabel();}else{labelFig();}},ok?450:1000);
+}
+function endLabel(){
+  const pct=Math.round(labelScore/labelQ.length*100);
+  $('label-end').style.display='block';
+  $('label-final').textContent='You found '+labelScore+' / '+labelQ.length+' correct ('+pct+'%)';
+  saveStat('label',pct);
+}
+
+/* ---- stats ---- */
+function saveStat(key,pct){
+  const s=loadChecks();const stats=JSON.parse(localStorage.getItem('cm_stats')||'{}');
+  stats[key]=Math.max(stats[key]||0,pct);
+  stats[key+'_last']=pct;stats[key+'_at']=new Date().toLocaleString();
+  localStorage.setItem('cm_stats',JSON.stringify(stats));
+  renderStats();
+}
+function renderStats(){
+  const s=JSON.parse(localStorage.getItem('cm_stats')||'{}');
+  $('stat-mcq').textContent=(s.mcq!==undefined?s.mcq+'%':'—');
+  $('stat-mcq-last').textContent=s.mcq_at?s.mcq_at:s.mcq_last!==undefined?s.mcq_last+'% last':'—';
+  $('stat-match').textContent=(s.match!==undefined?s.match+'%':'—');
+  $('stat-match-last').textContent=s.match_at?s.match_at:(s.match? '✓':'—');
+  $('stat-label').textContent=(s.label!==undefined?s.label+'%':'—');
+  $('stat-label-last').textContent=s.label_at?s.label_at:'—';
+}
+
+renderChecklist();renderGloss();renderStats();startLabel();</script>
+</body>
+</html>
